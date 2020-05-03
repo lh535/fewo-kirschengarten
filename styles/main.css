@@ -1,0 +1,19 @@
+#header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #b7d2b5;
+}
+
+#header-right-container {
+  display: flex;
+  justify-content: center;
+}
+
+.header-object {
+  padding: 10px;
+}
+
+
+p, a {
+  font-size: 15px;
+}
