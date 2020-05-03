@@ -1,4 +1,5 @@
-<div id="header">
+<header>
+<nav>
   <div class="header-object" id="header-home">
     <a class="header-link" href='#'>Ferienwohnung Kirschengarten</a>
   </div>
@@ -17,6 +18,7 @@
       <a class="header-link" href='#'>Anfahrt</a>
     </div>
   </div>
-</div>
+</nav>
+</header>
   
   
