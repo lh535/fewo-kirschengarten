@@ -1,12 +1,12 @@
 <header>
 <nav>
-  <a class="header-main" id='header-logo' href='#'>Ferienwohnung Kirschengarten</a>
+  <a class="header-main" id='header-logo' href='index.php'>Ferienwohnung Kirschengarten</a>
   
   <div id="header-right-container">
     <div class="dropdown"> 
       <button class="dropdown-btn header-main" href='#' type='button'>Wohnung <span class='dropdown-triangle'>&#x25BC;</span></button>
       <div class="dropdown-content">
-        <a href='#'>Beschreibung</a>
+        <a href='description.php'>Beschreibung</a>
         <a href='#'>Ausstattung</a>
       </div>
     </div>

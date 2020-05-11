@@ -1,13 +1,16 @@
-@red-text: #6f0101;  // very dark red
+@main-text: #000;
+@highlight-color: #6f0101;
 
 header {
-  background-color: #b7d2b5;
+  background-color: #a8d5a2;
+  position: fixed;
+  width: 100vw;
+  z-index: 1;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
-  z-index: 1;
   padding: 0px 15px 0px 15px;
 }
 
@@ -20,7 +23,7 @@ nav {
   padding: 20px 25px 20px 25px;
   cursor: pointer;
   font-size: 16px;
-  color: @red-text;
+  color: @main-text;
   .dropdown-triangle {
     font-size: 0.6em;
     position: relative;
@@ -45,7 +48,8 @@ nav {
     display: block;
     text-align: left;
   }
-  a:hover {
-    color: @red-text
-  }
+}
+
+.header-main:hover, .dropdown-content a:hover {
+  color: @highlight-color;
 }
