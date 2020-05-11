@@ -14,4 +14,5 @@
     <p>test</p>
   </body>
   <script type='text/javascript' src='scripts/navbar.js'></script>
+  <script type='text/javascript' src='scripts/main.js'></script>
 </html>
