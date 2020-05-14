@@ -6,12 +6,14 @@
     <link rel='stylesheet' type='text/css' href='styles/normalize.css'>
     <link rel='stylesheet' type='text/css' href='styles/custom-reset.css'>
     <link rel='stylesheet' type='text/css' href='styles/main.css'>
+    <script type='text/javascript' src='scripts/main.js'></script>
 
   </head>
   <body>
     <?php include 'header.php'; ?>
 
     <div id='main'>
+    <script>setTopOffset()</script>
       <h1>Wohnung</h1>
       <div id='content-wrapper'>
         <div id='main-text'>
@@ -27,5 +29,4 @@
     </div>
   </body>
   <script type='text/javascript' src='scripts/navbar.js'></script>
-  <script type='text/javascript' src='scripts/main.js'></script>
 </html>
