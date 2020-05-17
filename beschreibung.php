@@ -15,15 +15,15 @@
     <div id='main'>
     <script>setTopOffset()</script>
       <h1>Wohnung</h1>
-      <div id='content-wrapper'>
-        <div id='main-text'>
-          <h2>Beschreibung</h2>
-          <p>
+      <div class='content-wrapper' id='description-content'>
+        <h2>Beschreibung</h2>
+        <div class='paragraph'>
+          <p class='main-text'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
-        </div>
-        <div id='images'>
-          <img src='http://fewo-kirschengarten.de/Bilder/Kuechekl2.jpg'>
+          <div class='images'>
+            <img src='http://fewo-kirschengarten.de/Bilder/Kuechekl2.jpg'>
+          </div>
         </div>
       </div>
     </div>

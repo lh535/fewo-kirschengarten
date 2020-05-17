@@ -6,7 +6,7 @@
     <div class="dropdown"> 
       <button class="dropdown-btn header-main" href='#' type='button'>Wohnung <span class='dropdown-triangle'>&#x25BC;</span></button>
       <div class="dropdown-content">
-        <a href='description.php'>Beschreibung</a>
+        <a href='beschreibung.php'>Beschreibung</a>
         <a href='#'>Ausstattung</a>
       </div>
     </div>
