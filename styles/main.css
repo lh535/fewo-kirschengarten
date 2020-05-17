@@ -47,9 +47,17 @@ h2 {
 .paragraph {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 .paragraph > * {
   margin: 20px;
+}
+.paragraph .images {
+  flex: 0 0 20%;
+}
+.paragraph .images img {
+  width: 100%;
+  height: auto;
 }
 header {
   background-color: #a8d5a2;
