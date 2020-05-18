@@ -1,0 +1,29 @@
+#homepage-main {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  min-height: 100vh;
+
+}
+
+#homepage-main::after {
+  background: url("../images/home_background.png");
+  opacity: 0.7;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  content:"";
+  background-size: cover;
+  background-position: 0px 2%;
+}
+
+
+#homepage-logo {
+  font-size: 60px;
+  color: #b00;
+  position: relative;
+  top: 100px;
+}

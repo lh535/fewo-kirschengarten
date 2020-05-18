@@ -6,13 +6,15 @@
     <link rel='stylesheet' type='text/css' href='styles/normalize.css'>
     <link rel='stylesheet' type='text/css' href='styles/custom-reset.css'>
     <link rel='stylesheet' type='text/css' href='styles/main.css'>
+    <script type='text/javascript' src='scripts/main.js'></script>
 
   </head>
   <body>
     <?php include 'header.php'; ?>
- 
-    <p>test</p>
+    <div id='homepage-main'>
+    <script>setTopOffset("#homepage-main")</script>
+      <h1 id='homepage-logo'>Ferienwohnung Kirschengarten</h1>
+    </div> 
   </body>
   <script type='text/javascript' src='scripts/navbar.js'></script>
-  <script type='text/javascript' src='scripts/main.js'></script>
 </html>
