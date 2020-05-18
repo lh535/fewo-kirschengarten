@@ -22,14 +22,12 @@ h2 {
 
 #main {
   position: relative;
-  display: block;
   overflow: hidden;
   min-height: 100vh;
-
 }
 
 #main::after {
-  background: url("../images/background_2.png");
+  background: url("../images/background_2.jpg");
   opacity: 0.6;
   position: absolute;
   z-index: -1;
@@ -39,7 +37,7 @@ h2 {
   left: 0;
   content:"";
   background-size: cover;
-  background-position: 0px 2%;
+  background-position: 0px center;
 }
 
 .content-wrapper {
@@ -47,9 +45,9 @@ h2 {
   flex-direction: column;
   justify-items: center;
   margin: 0px 100px;
-  padding: 20px;
+  padding: 30px;
   background-color: #dff2e0;
-  min-height: 100vh;
+  flex: 1 0 auto;
   >* {
     flex: 1 0 auto;
   }
@@ -74,5 +72,6 @@ h2 {
   }
   iframe {
     flex: 1 0 auto;
+    min-height: 450px;
   }
 }

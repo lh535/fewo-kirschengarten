@@ -2,7 +2,7 @@
 function setTopOffset(toOffSet='#main') {
   let header = document.querySelector("header");
   let main = document.querySelector(toOffSet);
-  main.style.top = String(header.offsetHeight) + "px";
+  main.style["padding-top"] = String(header.offsetHeight) + "px";
   let all = document.querySelector("html");
-  all.style.width = String(all.clientWidth) + "px";
+  all.style.width = String(all.clientWidth) + "px";  // width - scrollbar
 }

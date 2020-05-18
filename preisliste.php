@@ -17,9 +17,7 @@
       <h1>Preisliste</h1>
       <div class='content-wrapper' id='description-content'>
         <div class='paragraph'>
-          <p class='main-text'>
-            Entwickler-Kommentar: hier pdf einbetten? Oder einfach Inhalt der pdf hier hinschreiben, für die Einheitlichkeit...
-          </p>
+            <iframe src='http://fewo-kirschengarten.de/html/Preisliste1.pdf'></iframe>
         </div>
       </div>
     </div>
