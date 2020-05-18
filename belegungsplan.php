@@ -17,9 +17,7 @@
       <h1>Belegungsplan</h1>
       <div class='content-wrapper' id='description-content'>
         <div class='paragraph'>
-          <p class='main-text'>
-            Entwickler-Kommentar: hier ein I-Frame benutzen? Oder hat das t-portal ding eigene funktionalität?
-          </p>
+          <iframe src='https://tportal.toubiz.de/kaiserstuhl-gastgeber/ukv/calendar/FIT00020070312698240'></iframe>
         </div>
       </div>
     </div>
