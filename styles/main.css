@@ -26,6 +26,7 @@
 html {
   width: 100vw;
   height: 100vh;
+  font-size: 18px;
 }
 h1,
 h2 {
@@ -33,10 +34,10 @@ h2 {
 }
 h1 {
   text-align: center;
-  font-size: 40px;
+  font-size: 50px;
   position: relative;
   margin: 40px 0px;
-  text-shadow: 0 2px 7px rgba(111, 111, 111, 0.8);
+  text-shadow: 0 3px 2px rgba(230, 230, 230, 0.7);
 }
 h2 {
   font-size: 1.5em;
@@ -58,13 +59,13 @@ h2 {
   left: 0;
   content: "";
   background-size: cover;
-  background-position: 0px center;
+  background-attachment: fixed;
 }
 .content-wrapper {
   display: flex;
   flex-direction: column;
   justify-items: center;
-  margin: 0px 100px;
+  margin: 0px 100px 50px 100px;
   padding: 30px;
   background-color: #dff2e0;
   flex: 1 0 auto;
@@ -84,7 +85,7 @@ h2 {
   margin: 20px;
 }
 .paragraph .images {
-  flex: 0 0 20%;
+  flex: 0 0 30%;
 }
 .paragraph .images img {
   width: 100%;
@@ -112,7 +113,7 @@ nav {
 .header-main {
   padding: 20px 25px 20px 25px;
   cursor: pointer;
-  font-size: 17px;
+  font-size: 19px;
   color: #000;
 }
 .header-main .dropdown-triangle {
