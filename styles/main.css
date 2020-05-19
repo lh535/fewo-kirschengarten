@@ -28,9 +28,13 @@ html {
   height: 100vh;
   font-size: 18px;
 }
+.small-text {
+  font-size: 0.8em;
+}
 h1,
 h2 {
-  color: #b00;
+  color: #a20606;
+  font-weight: bold;
 }
 h1 {
   text-align: center;
@@ -67,7 +71,7 @@ h2 {
   justify-items: center;
   margin: 0px 100px 50px 100px;
   padding: 30px;
-  background-color: #dff2e0;
+  background-color: #eaf6eb;
   flex: 1 0 auto;
 }
 .content-wrapper > * {
@@ -75,6 +79,10 @@ h2 {
 }
 .content-wrapper h2 {
   flex: 0;
+}
+.content-wrapper a {
+  color: #a20606;
+  text-decoration-line: underline;
 }
 .paragraph {
   display: flex;
@@ -94,6 +102,33 @@ h2 {
 .paragraph iframe {
   flex: 1 0 auto;
   min-height: 450px;
+}
+.just-text > * {
+  margin: 10px 20px;
+}
+.just-text p {
+  text-align: center;
+}
+.just-text .small-text {
+  margin: 5px 20px;
+  font-size: 0.6em;
+  display: inline;
+  font-weight: normal;
+}
+.just-text h2 {
+  text-align: center;
+  display: inline;
+}
+table {
+  align-self: center;
+}
+table th,
+table td {
+  padding: 15px;
+  text-align: center;
+}
+table th {
+  color: #a20606;
 }
 header {
   background-color: #a8d5a2;
@@ -140,5 +175,5 @@ nav {
 }
 .header-main:hover,
 .dropdown-content a:hover {
-  color: #b00;
+  color: #a20606;
 }
