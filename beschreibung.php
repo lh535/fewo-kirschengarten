@@ -14,17 +14,60 @@
 
     <div id='main'>
     <script>setTopOffset()</script>
-      <h1>Wohnung</h1>
+      <h1>Beschreibung</h1>
       <div class='content-wrapper' id='description-content'>
-        <h2>Beschreibung</h2>
         <div class='paragraph'>
           <p class='main-text'>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Unsere Ferienwohnung liegt inmitten der Natur am Ortsrand von Königschaffhausen, mit einem herrlichen Blick Über den Kaiserstuhl.
+Umgeben von Obstbäumen und in absolut ruhiger Lage bieten wir Ihnen Erholung und Entspannung pur.
           </p>
           <div class='images'>
-            <img src='http://fewo-kirschengarten.de/Bilder/Kuechekl2.jpg'>
+            <img alt='Bild der Umgebung' src='http://fewo-kirschengarten.de/Bilder/Kuechekl2.jpg'>
           </div>
         </div>
+ 
+        <div class='paragraph'>
+          <p class='main-text'>
+            Die Ferienwohnung verfügt über großzügige, helle Räume mit insgesamt 85m<sup>2</sup> Wohnfläche und einer 12m<sup>2</sup> großen überdachten Terasse.
+Die Zimmer sind komfortabel und modern eingerichtet. In unserer Wohnung ist das Rauchen außer auf dieser Terasse nicht erlaubt.
+Die Wohnung wurde vom Deutschen Tourismus-Verband mit 5 Sternen klassifiziert.
+          </p>
+        <div class='images'>
+        </div>
+      </div>
+
+      <div class='paragraph'>
+        <p class='main-text'>
+          Im Essbereich erwartet Sie eine komplett eingerichtete Einbauküche. Fühlen Sie sich wohl im gemütlichen Wohnbereich mit großem Sofa, SAT-TV und Stereoanlage oder genießen Sie bei einem Gläschen Wein auf der Terasse den schönen Ausblick in die Obstgärten.
+        </p>
+        <div class='images'>
+        </div>
+      </div>
+
+      <div class='paragraph'>
+      <p class='main-text'>
+        Die zwei großen Schlafzimmer bieten eine ebenso schöne Aussicht ins nahe Elsass (Vogesen). Insgesamt gibt es ein Doppelbett und zwei Einzelbetten.
+        Das Badezimmer verfügt über eine Dusche und Badewanne und lädt nach einem erlebnisreichen Tag zum Entspannen ein.
+      </p>
+      <div class='images'>
+      </div>
+    </div>
+
+      <div class='paragraph'>
+      <p class='main-text'>
+        In der seperaten Waschküche steht ihn Waschmaschine, Trockner und Bügeleisen bei Bedarf zur Verfügung und im großen Flur direkt hinter der Eingangstür gibt es reichlich Platz, um z.B. Ihre Fahrräder sicher unterzubringen.
+Ihr Auto können sie ebenfalls sicher bequem und überdacht direkt vor der Haustür parken.
+      </p>
+      <div class='images'>
+      </div>
+    </div>
+  
+      <div class='paragraph'>
+      <p class='main-text'>
+        Hier finden sie noch einen detailierten Grundriss der Wohnung:
+      </p>
+    </div>
+
       </div>
     </div>
   </body>

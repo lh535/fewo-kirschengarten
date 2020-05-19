@@ -26,7 +26,7 @@
 html {
   width: 100vw;
   height: 100vh;
-  font-size: 18px;
+  font-size: 19px;
 }
 .small-text {
   font-size: 0.8em;
@@ -40,12 +40,12 @@ h1 {
   text-align: center;
   font-size: 50px;
   position: relative;
-  margin: 40px 0px;
+  margin: 45px 0px;
   text-shadow: 0 3px 2px rgba(230, 230, 230, 0.7);
 }
 h2 {
   font-size: 1.5em;
-  margin: 20px;
+  margin: 10px 20px;
 }
 #main {
   position: relative;
@@ -129,6 +129,12 @@ table td {
 }
 table th {
   color: #a20606;
+}
+ul {
+  margin: 10px 30px;
+}
+ul li {
+  margin: 3px 20px;
 }
 header {
   background-color: #a8d5a2;
