@@ -3,7 +3,7 @@
 html {
   width: 100vw;
   height: 100vh;
-  font-size: 20px;
+  font-size: 21px;
 	font-family: "Crimson Text","times", "times new roman", "Georgia", serif;
 }
 
@@ -36,6 +36,10 @@ h2 {
   min-height: 100vh;
 }
 
+img {
+  max-width: 100%;
+}
+
 #main::after {
   background: url("../images/background_2.jpg");
   opacity: 0.6;
@@ -47,18 +51,15 @@ h2 {
   left: 0;
   content:"";
   background-size: cover;
-  // background-position: 0px -90px;
   background-attachment: fixed;
 }
 
 .content-wrapper {
   display: flex;
   flex-direction: column;
-  justify-items: center;
   margin: 0px 100px 50px 100px;
   padding: 30px;
   background-color: #eaf6eb;
-  flex: 1 0 auto;
   >* {
     flex: 1 0 auto;
   }
@@ -74,7 +75,8 @@ h2 {
 .paragraph {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   >* {  // select all children
     margin: 20px;
   }
@@ -82,8 +84,12 @@ h2 {
     flex: 0 0 30%;
     img {
       height: auto;
-      margin: 30px;
+      margin: auto;
+      display: block;
     }
+  }
+  p {
+    margin: 20px 50px;
   }
   .main-images {
     display: flex;
