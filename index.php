@@ -15,6 +15,7 @@
     <script>setTopOffset("#homepage-main")</script>
       <h1 id='homepage-logo'>Ferienwohnung Kirschengarten</h1>
     </div> 
+  <?php include 'footer.php'; ?>
   </body>
   <script type='text/javascript' src='scripts/navbar.js'></script>
 </html>

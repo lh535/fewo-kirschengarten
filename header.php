@@ -4,7 +4,7 @@
   
   <div id="header-right-container">
     <div class="dropdown"> 
-      <button class="dropdown-btn header-main" href='#' type='button'>Wohnung <span class='dropdown-triangle'>&#x25BC;</span></button>
+      <div class="dropdown-btn header-main">Wohnung <span class='dropdown-triangle'>&#x25BC;</span></div>
       <div class="dropdown-content">
         <a href='beschreibung.php'>Beschreibung</a>
         <a href='ausstattung.php'>Ausstattung</a>
@@ -12,7 +12,7 @@
     </div>
 
     <div class="dropdown">
-      <button class="dropdown-btn header-main"  type='button'>Kaiserstuhl <span class='dropdown-triangle'>&#x25BC;</span></button>
+      <div class="dropdown-btn header-main">Kaiserstuhl <span class='dropdown-triangle'>&#x25BC;</span></div>
       <div class="dropdown-content">
         <a href='koenigschaffhausen.php'>Königschaffhausen</a>
         <a href='umgebung.php'>Umgebung</a>
@@ -20,7 +20,7 @@
     </div>
 
     <div class="dropdown">
-      <button class="dropdown-btn header-main"  type='button'>Buchung <span class='dropdown-triangle'>&#x25BC;</span></button>
+      <div class="dropdown-btn header-main">Buchung <span class='dropdown-triangle'>&#x25BC;</span></div>
       <div class="dropdown-content">
         <a href='preisliste.php'>Preisliste</a>
         <a href='belegungsplan.php'>Belegungsplan</a>

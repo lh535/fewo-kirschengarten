@@ -74,6 +74,7 @@
         <p>In diesem Preis inklusive ist auch Konus-Gästekarte, die sie zur kostenlosen Benutzung von öffentlichen Verkehrsmitteln berechtigt. Mehr Infos hierzu auch unter diesem Link: <a href="https://www.schwarzwald-tourismus.info/planen-buchen/konus-gaestekarte">Konus-Gästekarte</a>
       </div>
     </div>
+  <?php include 'footer.php'; ?>
   </body>
   <script type='text/javascript' src='scripts/navbar.js'></script>
 </html>
