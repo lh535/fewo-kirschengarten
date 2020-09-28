@@ -17,13 +17,14 @@
       <h1>Kontakt</h1>
       <div class='content-wrapper' id='description-content'>
         <div class='paragraph'>
-          <p class='main-text'>
-            Am Besten nach 15 Uhr anrufen, wir haben keine Kinder. Deshalb wird grundsätzlich erst nach der Arbeit das Telefon abgenommen.
+          <p>
+            Sie wollen Buchen oder haben eine Frage zur Wohnung? Kontaktieren Sie uns! 
           </p>
+          <img ref=''>
         </div>
       </div>
+    <?php include 'footer.php'; ?>
     </div>
-  <?php include 'footer.php'; ?>
   </body>
   <script type='text/javascript' src='scripts/navbar.js'></script>
 </html>

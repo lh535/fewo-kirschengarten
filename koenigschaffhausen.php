@@ -26,8 +26,8 @@
           </div>
         </div>
       </div>
+    <?php include 'footer.php'; ?>
     </div>
-  <?php include 'footer.php'; ?>
   </body>
   <script type='text/javascript' src='scripts/navbar.js'></script>
 </html>
