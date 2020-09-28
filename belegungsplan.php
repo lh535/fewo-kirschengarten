@@ -7,6 +7,7 @@
     <link rel='stylesheet' type='text/css' href='styles/custom-reset.css'>
     <link rel='stylesheet' type='text/css' href='styles/main.css'>
     <script type='text/javascript' src='scripts/main.js'></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet"> 
 
   </head>
   <body>
@@ -20,8 +21,8 @@
           <iframe src='https://tportal.toubiz.de/kaiserstuhl-gastgeber/ukv/calendar/FIT00020070312698240'></iframe>
         </div>
       </div>
+      <?php include 'footer.php'; ?>
     </div>
-  <?php include 'footer.php'; ?>
   </body>
   <script type='text/javascript' src='scripts/navbar.js'></script>
 </html>

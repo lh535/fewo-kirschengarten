@@ -5,11 +5,10 @@
   min-height: 100vh;
 }
 #homepage-main::after {
-  background: url("../images/home_background.jpg");
-  opacity: 0.7;
+  background: url("../images/homepage_2.jpg");
   position: absolute;
   z-index: -1;
-  top: 0;
+  top: 65px;
   bottom: 0;
   right: 0;
   left: 0;
@@ -18,17 +17,23 @@
   background-position: 0px 2%;
 }
 #homepage-logo {
-  font-size: 60px;
-  color: #b00;
-  position: relative;
-  top: 100px;
+  font-family: 'Roboto Condensed', 'Open-Sans', sans-serif;
+  color: #FFF;
+  padding: 120px 0px 80px 0px;
+  text-align: center;
+}
+#homepage-logo #home_small_logo {
+  font-size: 70px;
+}
+#homepage-logo #home_big_logo {
+  font-size: 100px;
 }
 html {
   width: 100%;
   height: 100%;
   font-size: 21px;
-  font-family: "Crimson Text", "times", "times new roman", "Georgia", serif;
-  line-height: 1.5em;
+  font-family: 'Roboto', 'Open-Sans', sans-serif;
+  line-height: 1.5;
 }
 .small-text {
   font-size: 0.8em;
@@ -101,7 +106,7 @@ p {
   min-height: 450px;
 }
 img {
-  max-width: 100%;
+  width: 100%;
 }
 .two-images {
   flex: 0 0 50%;
@@ -165,8 +170,12 @@ ul li {
   margin: 3px 20px;
 }
 footer {
+  position: relative;
   display: flex;
   justify-content: center;
+  bottom: 10px;
+  left: 0px;
+  right: 0px;
 }
 footer > * {
   padding: 10px 30px;
@@ -175,7 +184,7 @@ footer > * {
   font-size: 2em;
   position: fixed;
   bottom: 20px;
-  right: 10px;
+  right: 20px;
   color: #751414;
 }
 span {
