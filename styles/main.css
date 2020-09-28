@@ -34,7 +34,7 @@ html {
 }
 h1,
 h2 {
-  color: #a20606;
+  color: #751414;
   font-weight: bold;
 }
 h1 {
@@ -73,17 +73,17 @@ img {
 .content-wrapper {
   display: flex;
   flex-direction: column;
-  margin: 0px 100px 50px 100px;
-  padding: 40px;
+  margin: 0px 60px 50px 60px;
+  padding: 40px 60px;
   max-width: 100%;
   background-color: #eaf6eb;
 }
 .content-wrapper a {
-  color: #a20606;
+  color: #751414;
   text-decoration-line: underline;
 }
 .whitespace {
-  height: 40px;
+  height: 60px;
 }
 .paragraph {
   margin: 20px 0px;
@@ -95,21 +95,21 @@ img {
 .paragraph > * {
   margin: 20px;
 }
-.paragraph .images {
-  flex: 0 0 50%;
-  white-space: nowrap;
-}
-.paragraph .images img {
-  height: auto;
-  margin: auto;
-  max-width: 50%;
-}
 .paragraph p {
-  margin: 0px 50px;
+  margin: 0px 20px;
 }
 .paragraph iframe {
   flex: 1 0 auto;
   min-height: 450px;
+}
+.two-images {
+  flex: 0 0 50%;
+  white-space: nowrap;
+}
+.two-images img {
+  height: auto;
+  margin: auto;
+  max-width: 50%;
 }
 .main-images {
   width: 100%;
@@ -155,7 +155,7 @@ table td {
   text-align: center;
 }
 table th {
-  color: #a20606;
+  color: #751414;
 }
 ul {
   margin: 10px 30px;
@@ -163,8 +163,25 @@ ul {
 ul li {
   margin: 3px 20px;
 }
+footer {
+  display: flex;
+  justify-content: center;
+}
+footer > * {
+  padding: 10px 30px;
+}
+#up-button {
+  font-size: 2em;
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  color: #751414;
+}
+span {
+  mouse-events: none;
+}
 header {
-  background-color: #a8d5a2;
+  background-color: #9bc196;
   position: fixed;
   width: 100%;
   z-index: 1;
@@ -211,5 +228,5 @@ nav {
   color: #a20606;
 }
 span {
-  pointer-event: none;
+  pointer-events: none;
 }

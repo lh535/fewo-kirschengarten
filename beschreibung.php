@@ -37,7 +37,7 @@ Die Wohnung wurde vom Deutschen Tourismus-Verband mit 5 Sternen klassifiziert.
             Die Ferienwohnung verfügt über großzügige, helle Räume mit insgesamt 85m<sup>2</sup> Wohnfläche und einer 12m<sup>2</sup> großen überdachten Terasse.
 Die Zimmer sind komfortabel und modern eingerichtet. 
           </p>
-        <div class='images'>
+        <div class='two-images'>
           <img src='http://fewo-kirschengarten.de/Bilder/Schlafzimmerkl.jpg'>
           <img src='http://fewo-kirschengarten.de/Bilder/Schlafzimmerkl.jpg'>
         </div>
@@ -47,7 +47,7 @@ Die Zimmer sind komfortabel und modern eingerichtet.
         <p class='main-text'>
           Im Essbereich erwartet Sie eine komplett eingerichtete Einbauküche. Gleich daneben finden sie einen Wohbereich mit SAT-TV und Stereoanlage, der zum Entspannen einlädt. Auf der Terasse können Sie bei einem Gläschen Wein den schönen Ausblick in die Obstgärten genießen.
         </p>
-        <div class='images'>
+        <div class='two-images'>
           <img src='http://fewo-kirschengarten.de/Bilder/Schlafzimmerkl.jpg'>
           <img src='http://fewo-kirschengarten.de/Bilder/Schlafzimmerkl.jpg'>
         </div>
@@ -58,7 +58,7 @@ Die Zimmer sind komfortabel und modern eingerichtet.
         Die zwei großen Schlafzimmer bieten eine ebenso schöne Aussicht ins nahe Elsass (Vogesen). Insgesamt gibt es ein Doppelbett und zwei Einzelbetten.
         Das Badezimmer verfügt über eine Dusche und Badewanne und lädt nach einem erlebnisreichen Tag zum Entspannen ein.
       </p>
-      <div class='images'>
+      <div class='two-images'>
           <img src='http://fewo-kirschengarten.de/Bilder/Schlafzimmerkl.jpg'>
           <img src='http://fewo-kirschengarten.de/Bilder/Schlafzimmerkl.jpg'>
       </div>
@@ -69,7 +69,7 @@ Die Zimmer sind komfortabel und modern eingerichtet.
         In der seperaten Waschküche steht ihn Waschmaschine, Trockner und Bügeleisen bei Bedarf zur Verfügung und im großen Flur direkt hinter der Eingangstür gibt es reichlich Platz, um z.B. Ihre Fahrräder sicher unterzubringen.
 Ihr Auto können sie ebenfalls unter einer Überdachung direkt vor der Haustür parken.
       </p>
-      <div class='images'>
+      <div class='two-images'>
           <img src='http://fewo-kirschengarten.de/Bilder/Schlafzimmerkl.jpg'>
           <img src='http://fewo-kirschengarten.de/Bilder/Schlafzimmerkl.jpg'>
       </div>

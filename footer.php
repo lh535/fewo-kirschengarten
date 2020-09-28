@@ -1,4 +1,6 @@
 <footer>
+  <span>&#169;2020</span>
   <a href='#'>Impressum</a>
-  <a href='#'><span id='up-button'>&#x1403;</span></a>
 </footer>
+
+<a href='#' id='up-button'>&#x1403;</a>
