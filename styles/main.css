@@ -49,14 +49,14 @@ h2 {
   font-size: 1.5em;
   margin: 10px 20px;
 }
+p {
+  margin: 0px 20px;
+}
 #main {
   position: relative;
   overflow: hidden;
   min-height: 100vh;
   width: 100%;
-}
-img {
-  max-width: 100%;
 }
 #main::after {
   background: url("../images/background_2.jpg");
@@ -87,7 +87,7 @@ img {
   height: 60px;
 }
 .paragraph {
-  margin: 20px 0px;
+  margin: 30px 0px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -95,13 +95,13 @@ img {
 }
 .paragraph > * {
   margin: 20px;
-}
-.paragraph p {
-  margin: 0px 20px;
+  flex: 1;
 }
 .paragraph iframe {
-  flex: 1 0 auto;
   min-height: 450px;
+}
+img {
+  max-width: 100%;
 }
 .two-images {
   flex: 0 0 50%;
@@ -182,7 +182,7 @@ span {
   mouse-events: none;
 }
 header {
-  background-color: #9bc196;
+  background-color: #bbddb7;
   position: fixed;
   width: 100%;
   z-index: 1;
@@ -190,14 +190,14 @@ header {
 nav {
   display: flex;
   justify-content: space-between;
-  padding: 0px 15px 0px 15px;
+  padding: 0px 20px;
 }
 #header-right-container {
   display: flex;
   justify-content: end;
 }
 .header-main {
-  padding: 22px 20px;
+  padding: 17px 20px;
   cursor: pointer;
   font-size: 23px;
   color: #000;
