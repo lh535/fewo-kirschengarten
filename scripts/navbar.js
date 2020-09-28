@@ -1,6 +1,6 @@
 // toggle drop down menu. argument is surrounding div for button.
 // by default just toggle, or provide additional arguments to only deactivate/activate. If both are true, do nothing
-function toggleDropdown(dropdownDiv, justActivate=false, justDeactivate=false) {
+function toggleDropdown(dropdownDiv, justActivate, justDeactivate) {
   let dropdownMenu = dropdownDiv.querySelector(".dropdown-content");
   if (!justActivate && !justDeactivate) {
     dropdownMenu.classList.toggle("active");
@@ -37,7 +37,7 @@ let headerDiv = document.querySelectorAll(".dropdown");
 // event listener for button clicks
 headerButtons.forEach((btn) => { btn.addEventListener('click', (e) => {
   closeAllDropdown(e.currentTarget.parentNode); // call this first to close all other dropdowns that may be open
-  toggleDropdown(e.currentTarget.parentNode);
+  toggleDropdown(e.currentTarget.parentNode, false, false);
   });
 });
 

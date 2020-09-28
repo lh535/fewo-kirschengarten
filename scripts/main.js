@@ -1,5 +1,6 @@
 // get height of navbar, and offset main content that many pixels from top
-function setTopOffset(toOffSet='#main') {
+function setTopOffset(toOffSet) {
+  toOffSet = '#main';  // set default
   let header = document.querySelector("header");
   let main = document.querySelector(toOffSet);
   main.style["padding-top"] = String(header.offsetHeight) + "px";
