@@ -23,8 +23,7 @@
             <li>Terasse</li>
             <li>Zentralheizung</li>
             <li>Überdachte Unterstellmöglichkeit für ein Auto</li>
-            <li>Nichtracher-Wohnung</li>
-            <li>Hunde-freundlich?</li>
+            <li>Nichtracher-Wohnung (außer Terasse)</li>
           </ul>
         <h2>Küche</h2>
           <ul>
@@ -36,6 +35,8 @@
             <li>Kaffeemaschine (normal oder Senseo)</li>
             <li>Toaster</li>
             <li>Wasserkocher</li>
+            <li>Mixer</li>
+            <li>Brotschneidemaschine</li>
           </ul> 
         <h2>Bad/Waschküche</h2>
           <ul>
@@ -48,7 +49,7 @@
             <li>WLAN</li>
             <li>Zimmersafe</li>
             <li>SAT-Fernseher</li>
-            <li>Bei Bedarf Kinderstühle und Kinderbett (?)</li>
+            <li>Bei Bedarf Kinderstühle</li>
           </ul>
       </div>
       <?php include 'footer.php'; ?>

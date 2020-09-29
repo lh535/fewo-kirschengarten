@@ -190,6 +190,9 @@ footer {
 footer > * {
   padding: 10px 30px;
 }
+a:visited {
+  text-decoration-line: none;
+}
 #up-button {
   font-size: 2em;
   position: fixed;
