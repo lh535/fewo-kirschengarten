@@ -1,12 +1,16 @@
-@highlight-color: #751414;
+@highlight-color: #8a4545;
 
 // main settings for all pages except homepage
 html {
   width: 100%;
   height: 100%;
-  font-size: 21px;
+  font-size: 22px;
 	font-family: 'Roboto', 'Open-Sans', sans-serif;
   line-height: 1.5;
+}
+
+a:hover {
+  color: #8a4545;
 }
 
 .small-text {
@@ -20,11 +24,12 @@ h1, h2 {
 
 // used for page heading over content
 h1 {
+  font-family: "open-sans", sans-serif;
   text-align: center;
   font-size: 50px;
   position: relative;
   margin: 75px 0px;
-	text-shadow: 0 3px 2px rgba(255, 255, 255, 0.5);
+	text-shadow: 0 3px 2px rgba(255, 255, 255, 0.3);
   text-transform: uppercase;
 }
 
@@ -34,7 +39,12 @@ h2 {
 }
 
 p {
-  margin: 0px 20px;
+  margin: 10px 25px;
+}
+
+img {
+  margin: 10px 25px;
+  width: 100%;
 }
 
 // entire body after the header is inside main
@@ -43,6 +53,7 @@ p {
   overflow: hidden;
   min-height: 100vh;
   width: 100%;
+	background: rgba(223, 255, 204, 0.1);
 }
 
 // background image
@@ -75,12 +86,12 @@ p {
 }
 
 .whitespace {
-  height: 60px;
+  height: 30px;
 }
 
-// flex version of a regualar paragraph
+// basically a flex container for blocks of content
 .paragraph {
-  margin: 30px 0px;
+  margin: 40px 0px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -92,10 +103,6 @@ p {
  iframe {
     min-height: 450px;
   }
-}
-
-img {
-  width: 100%;
 }
 
 // two images, intended to be beside text
@@ -115,6 +122,9 @@ img {
   display: flex;
   justify-content: center;
   padding: 20px 0px;
+  img {
+    margin: 0px;
+  }
   .big-img {
     flex: 1 1 70%;
     width: 70%;
