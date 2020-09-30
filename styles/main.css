@@ -4,6 +4,9 @@
   overflow: hidden;
   min-height: 100vh;
 }
+#homepage-main #up-button {
+  display: none;
+}
 #homepage-main::after {
   background: url("../images/homepage_2.jpg");
   position: absolute;
@@ -17,9 +20,10 @@
   background-position: 0px 2%;
 }
 #homepage-logo {
+  text-transform: uppercase;
   font-family: 'Roboto Condensed', 'Open-Sans', sans-serif;
   color: #FFF;
-  padding: 120px 0px 80px 0px;
+  margin: 120px 0px 80px 0px;
   text-align: center;
 }
 #homepage-logo #home_small_logo {
@@ -27,6 +31,85 @@
 }
 #homepage-logo #home_big_logo {
   font-size: 100px;
+}
+#home_button_div {
+  margin-bottom: 200px;
+  text-align: center;
+}
+#home_button_div .home_buttons {
+  font-size: 30px;
+  color: white;
+  border: 2px;
+  border-style: solid;
+  border-radius: 6px;
+  margin: 0px 40px;
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+#home_button_div .home_buttons:hover {
+  background-color: rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+#home_button_1 {
+  animation: fadein 1s;
+  -webkit-animation: fadein 1s;
+  -moz-animation: fadein 1s;
+  -ms-animation: fadein 1s;
+  -o-animation: fadein 1s;
+}
+#home_button_2 {
+  -webkit-animation: fadein calc(1s * 1.5);
+  -moz-animation: fadein calc(1s * 1.5);
+  -ms-animation: fadein calc(1s * 1.5);
+  -o-animation: fadein calc(1s * 1.5);
+  animation: fadein calc(1s * 1.5);
+}
+#home_button_3 {
+  -webkit-animation: fadein calc(1s * 2);
+  -moz-animation: fadein calc(1s * 2);
+  -ms-animation: fadein calc(1s * 2);
+  -o-animation: fadein calc(1s * 2);
+  animation: fadein calc(1s * 2);
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-ms-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 html {
   width: 100%;
