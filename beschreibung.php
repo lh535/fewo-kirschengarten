@@ -18,11 +18,11 @@
       <h1>Beschreibung</h1>
       <div class='content-wrapper' id='description-content'>
           <div class='main-images' >
-            <img src='https://cdn.tomas-travel.com/fit/repository/FIT00020070312698240/TBX00020050000221441/FIT00020070312698247_sized_800_0.jpg' class='big-img'>
+            <img class='big-img' src='images/front.jpg' alt='Vorderseite des Hauses'>
             <div class='small-img'>
-              <img src='https://cdn.tomas-travel.com/fit/repository/FIT00020070312698242/TBX00020050000221441/FIT00020070536815146_sized_800_0.jpg'>
-              <img src='http://fewo-kirschengarten.de/Bilder/Schlafzimmerkl.jpg'>
-              <img src='http://fewo-kirschengarten.de/Bilder/Schlafzimmerkl.jpg'>
+              <img src='images/front.jpg' alt='Luftbild'>
+              <img src='images/front.jpg' alt='Ausblick'>
+              <img src='images/front.jpg'>
             </div>
           </div>
 
@@ -39,40 +39,40 @@ Die Wohnung wurde vom Deutschen Tourismus-Verband mit 5 Sternen klassifiziert.
 Die Zimmer sind komfortabel und modern eingerichtet. 
           </p>
         <div class='two-images'>
-          <img src='http://fewo-kirschengarten.de/Bilder/Schlafzimmerkl.jpg'>
-          <img src='http://fewo-kirschengarten.de/Bilder/Schlafzimmerkl.jpg'>
+          <img src='images/front.jpg' alt='Terasse'>
+          <img src='images/front.jpg' alt=''>
         </div>
       </div>
 
       <div class='paragraph'>
         <p class='main-text'>
-          Im Essbereich erwartet Sie eine komplett eingerichtete Einbauküche. Gleich daneben finden sie einen Wohbereich mit SAT-TV und Stereoanlage, der zum Entspannen einlädt. Auf der Terasse können Sie bei einem Gläschen Wein den schönen Ausblick in die Obstgärten genießen.
+          Im Essbereich erwartet Sie eine komplett eingerichtete Einbauküche.<br>
+ Gleich daneben finden sie einen Wohbereich mit SAT-TV und Stereoanlage, der zum Entspannen einlädt. 
         </p>
         <div class='two-images'>
-          <img src='http://fewo-kirschengarten.de/Bilder/Schlafzimmerkl.jpg'>
-          <img src='http://fewo-kirschengarten.de/Bilder/Schlafzimmerkl.jpg'>
+          <img src='images/front.jpg' alt='Küche'>
+          <img src='images/front.jpg' alt='Wohnbereich'>
         </div>
       </div>
 
       <div class='paragraph'>
       <p class='main-text'>
-        Die zwei großen Schlafzimmer bieten eine ebenso schöne Aussicht ins nahe Elsass (Vogesen). Insgesamt gibt es ein Doppelbett und zwei Einzelbetten.
-        Das Badezimmer verfügt über eine Dusche und Badewanne und lädt nach einem erlebnisreichen Tag zum Entspannen ein.
+        Die zwei bequemen Schlafzimmer mit Aussicht ins nahe Elsass (Vogesen) besitzen ausreichend Verstauungsmöglichkeiten. Insgesamt gibt es ein Doppelbett und zwei Einzelbetten.
       </p>
       <div class='two-images'>
-          <img src='http://fewo-kirschengarten.de/Bilder/Schlafzimmerkl.jpg'>
-          <img src='http://fewo-kirschengarten.de/Bilder/Schlafzimmerkl.jpg'>
+          <img src='images/front.jpg' alt='Schlafzimmer mit Doppelbett'>
+          <img src='images/front.jpg' alt='Schlafzimmer mit zwei Einzelbetten'>
       </div>
     </div>
 
       <div class='paragraph'>
       <p class='main-text'>
-        In der seperaten Waschküche steht ihn Waschmaschine, Trockner und Bügeleisen bei Bedarf zur Verfügung und im großen Flur direkt hinter der Eingangstür gibt es reichlich Platz, um z.B. Ihre Fahrräder sicher unterzubringen.
-Ihr Auto können sie ebenfalls unter einer Überdachung direkt vor der Haustür parken.
+        Das Badezimmer verfügt über eine Dusche und Badewanne und lädt nach einem erlebnisreichen Tag zum Entspannen ein.<br>
+        Im Erdgeschoß finden Sie eine seperate Waschküche und einen großen Flur, in dem Sie beispielsweise Ihre Fahrräder sicher unterbringen können.
       </p>
       <div class='two-images'>
-          <img src='http://fewo-kirschengarten.de/Bilder/Schlafzimmerkl.jpg'>
-          <img src='http://fewo-kirschengarten.de/Bilder/Schlafzimmerkl.jpg'>
+          <img src='images/front.jpg' alt='Badezimmer'>
+          <img src='images/front.jpg' alt='Eingangsbereich und Flur'>
       </div>
     </div>
   

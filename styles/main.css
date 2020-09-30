@@ -43,7 +43,7 @@ a:hover {
 }
 h1,
 h2 {
-  color: #8a4545;
+  color: #b03d52;
   font-weight: bold;
 }
 h1 {
@@ -95,7 +95,7 @@ img {
   background-color: #eaf6eb;
 }
 .content-wrapper a {
-  color: #8a4545;
+  color: #b03d52;
   text-decoration-line: underline;
 }
 .whitespace {
@@ -134,11 +134,10 @@ img {
   margin: 0px;
 }
 .main-images .big-img {
-  flex: 1 1 70%;
-  width: 70%;
+  flex: 0 1 auto;
 }
 .main-images .small-img {
-  flex: 1 1 25%;
+  flex: 1 1 33.3333%;
   display: flex;
   flex-direction: column;
   align-items: space-between;
@@ -171,7 +170,7 @@ table td {
   text-align: center;
 }
 table th {
-  color: #8a4545;
+  color: #b03d52;
 }
 ul {
   margin: 10px 30px;
@@ -198,7 +197,7 @@ a:visited {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  color: #8a4545;
+  color: #a84557;
 }
 span {
   mouse-events: none;
@@ -251,7 +250,7 @@ nav {
 }
 .header-main:hover,
 .dropdown-content a:hover {
-  color: #8a4545;
+  color: #b03d52;
 }
 span {
   pointer-events: none;
