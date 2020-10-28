@@ -15,7 +15,7 @@
           <p>
             <b>Kontaktmöglichkeiten</b><br>
             Telefon: 07642/1290<br>
-            Email: <a href=info@fewo-kirschengarten.de>info@fewo-kirschengarten.de</a><br>
+            Email: <a href='mailto:info@fewo-kirschengarten.de'>info@fewo-kirschengarten.de</a><br>
           </p>
           <p>
             <b>Anschrift</b><br>
