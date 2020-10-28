@@ -41,6 +41,7 @@
 Fahren Sie nun geradeaus weiter und biegen Sie dann vor der Winzergenossenschaft in Richtung Sasbach rechts ab. Folgen Sie dem Straßenverlauf, bis Sie kurz vor dem Ortsausgang nach dem letzten Haus rechts die Sasbacherstraße abgehen sehen. Biegen Sie ab, und nach etwa 200m steht links unsere Ferienwohnung.
           </p>
         </div>
+      </div>
       <?php include 'footer.php'; ?>
     </div>
   </body>

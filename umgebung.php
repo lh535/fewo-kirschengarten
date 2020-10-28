@@ -8,11 +8,10 @@
 
     <div id='main'>
     <script>setTopOffset()</script>
-      <h1>Kaiserstuhl</h1>
+      <h1>UMGEBUNG</h1>
       <div class='content-wrapper' id='description-content'>
-        <h2>UMGEBUNG</h2>
           <p>
-          Eine der bekanntesten Attraktionen der Umgebung ist wohl der<a href="https://www.europapark.de/de">Europa-Park</a> in Rust. Im Themenpark gibt es nicht nur Achterbahnen, sondern auch zahlreiche Veranstaltungen, Restaurants und Entspannungsmöglichkeiten.<br>
+          Eine der bekanntesten Attraktionen der Umgebung ist wohl der <a href="https://www.europapark.de/de">Europa-Park</a> in Rust. Im Themenpark gibt es nicht nur Achterbahnen, sondern auch zahlreiche Veranstaltungen, Restaurants und Entspannungsmöglichkeiten.<br>
  Von Königschaffhausen ist der Park ca. 18km mit dem Auto entfernt.
           </p>
           <p>
