@@ -13,9 +13,9 @@
           <div class='main-images' >
             <img class='big-img' src='images/front.jpg' alt='Vorderseite des Hauses'>
             <div class='small-img'>
-              <img src='images/front.jpg' alt='Luftbild'>
-              <img src='images/front.jpg' alt='Ausblick'>
-              <img src='images/front.jpg'>
+              <img src='images/air_photo.jpg' alt='Luftbild'>
+              <img src='images/bed.jpg' alt='Schlafzimmer'>
+              <img src='images/couch.jpg' alt='Wohnzimmer'>
             </div>
           </div>
 
@@ -32,8 +32,8 @@ Die Wohnung wurde vom Deutschen Tourismus-Verband mit 5 Sternen klassifiziert.
 Die Zimmer sind komfortabel und modern eingerichtet. 
           </p>
         <div class='two-images'>
-          <img src='images/front.jpg' alt='Terasse'>
-          <img src='images/front.jpg' alt=''>
+          <img src='images/terrace.jpg' alt='Terasse'>
+          <img src='images/combined.jpg' alt='Eß- und Wohnbereich'>
         </div>
       </div>
 
@@ -43,8 +43,8 @@ Die Zimmer sind komfortabel und modern eingerichtet.
  Gleich daneben finden sie einen Wohbereich mit SAT-TV und Stereoanlage, der zum Entspannen einlädt. 
         </p>
         <div class='two-images'>
-          <img src='images/front.jpg' alt='Küche'>
-          <img src='images/front.jpg' alt='Wohnbereich'>
+          <img src='images/kitchen.jpg' alt='Küche'>
+          <img src='images/living_room.jpg' alt='Wohnbereich'>
         </div>
       </div>
 
@@ -53,8 +53,8 @@ Die Zimmer sind komfortabel und modern eingerichtet.
         Die zwei bequemen Schlafzimmer mit Aussicht ins nahe Elsass (Vogesen) besitzen ausreichend Verstauungsmöglichkeiten. Insgesamt gibt es ein Doppelbett und zwei Einzelbetten.
       </p>
       <div class='two-images'>
-          <img src='images/front.jpg' alt='Schlafzimmer mit Doppelbett'>
-          <img src='images/front.jpg' alt='Schlafzimmer mit zwei Einzelbetten'>
+          <img src='images/bedroom_big.jpg' alt='Schlafzimmer mit Doppelbett'>
+          <img src='images/bedroom_small.jpg' alt='Schlafzimmer mit zwei Einzelbetten'>
       </div>
     </div>
 
@@ -64,8 +64,8 @@ Die Zimmer sind komfortabel und modern eingerichtet.
         Im Erdgeschoß finden Sie eine seperate Waschküche und einen großen Flur, in dem Sie beispielsweise Ihre Fahrräder sicher unterbringen können.
       </p>
       <div class='two-images'>
-          <img src='images/front.jpg' alt='Badezimmer'>
-          <img src='images/front.jpg' alt='Eingangsbereich und Flur'>
+          <img src='images/bath_1.jpg' alt='Badezimmer'>
+          <img src='images/entrance.jpg' alt='Eingangsbereich und Flur'>
       </div>
     </div>
   
