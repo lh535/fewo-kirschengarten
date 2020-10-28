@@ -10,15 +10,30 @@
     <script>setTopOffset()</script>
       <h1>Kaiserstuhl</h1>
       <div class='content-wrapper' id='description-content'>
-        <h2>Umgebung</h2>
-        <div class='paragraph'>
-          <p class='main-text'>
-            War schon sehr lange nicht mehr im Europapark. Momentan wohl auch keine gute Zeit.
+        <h2>UMGEBUNG</h2>
+          <p>
+          Eine der bekanntesten Attraktionen der Umgebung ist wohl der<a href="https://www.europapark.de/de">Europa-Park</a> in Rust. Im Themenpark gibt es nicht nur Achterbahnen, sondern auch zahlreiche Veranstaltungen, Restaurants und Entspannungsmöglichkeiten.<br>
+ Von Königschaffhausen ist der Park ca. 18km mit dem Auto entfernt.
           </p>
-          <div class='images'>
-            <img src='https://www.visit.alsace/wp-content/uploads/lei/pictures/306000019-europa-park-8-1600x900.jpg'>
-          </div>
-        </div>
+          <p>
+          Zum erholsamen Erkunden des Kaiserstuhls bieten sich eine Tour mit dem <a href="https://www.naturgarten-kaiserstuhl.de/de-de/kaiserlich-erleben/rebenbummler">Rebenbummler</a> oder eine <a href="https://bfs-linie.de/">Schifffahrt bei der BFS</a> an.
+          </p>
+          <p>
+          Ebenfalls direkt in der Nähe finden Sie den <a href="https://abenteuer-im-wald.de/index.php/de/">Kenzinger Klettergarten</a>.
+          </p>
+          <p>
+          Naturgarten
+          </p>
+          <p>
+          Schwarzwald, Freiburg - Zipline, Baumkronenweg, Erlebniswelten, Schauinsland, Münster, ...
+          </p>
+          <p>
+          Endingen: Veranstaltungskalender, Führungen, Lichternacht, Büchermarkt, Jahrmarkt, Stadtschauspiele, Kaiserstuhlpfad, ...
+          </p>
+          <p>
+          Elsass
+          </p>
+          
       </div>
     <?php include 'footer.php'; ?>
     </div>
