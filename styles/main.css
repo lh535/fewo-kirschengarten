@@ -333,14 +333,6 @@ footer a {
   text-decoration-line: none;
   color: black;
 }
-#up-button {
-  font-size: 2em;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  color: #a84557;
-  mouse-events: none;
-}
 header {
   background-color: #bbddb7;
   position: fixed;
