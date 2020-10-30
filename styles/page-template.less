@@ -134,18 +134,67 @@ img {
   }
   .big-img {
     flex: 0 1 auto;
+    margin-right: 3px;
   }
   .small-img{
-    flex: 1 1 33.3333%;
+    flex: 1 1 32.6797%;
     display: flex;
     flex-direction: column;
     align-items: space-between;
     img {
       width: 100%;
+      margin-top: 3px;
     }
   }
 }
- 
+
+// background and container for open image gallery
+.modal {
+  display: none;
+  z-index: 2;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  left: 0px;
+  top: 0px;
+  overflow: auto;
+
+  .prev-button, .next-button, .close-button{
+    color: white;
+    position: absolute;
+    top: 50%;
+    font-size: 30px;
+    font-weight: bold;
+    z-index: 5;
+  }
+  .next-button {
+    right: 30px;
+  }
+  .prev-button {
+    left: 30px;
+  }
+  .close-button {
+    font-size: 50px;
+    top: 20px;
+    right: 20px;
+  }
+  .close-button:hover, .next-button:hover, .prev-button:hover{
+    color: #999;
+    cursor: pointer;
+  }
+  .gallery-content {
+    display: block;
+    position: relative;
+    padding: 0px;
+    height: 90%;
+    top: 5%;
+    width: auto;
+    margin: auto;
+  }
+}
+
+
 .just-text {
   >* {
     margin: 10px 20px;

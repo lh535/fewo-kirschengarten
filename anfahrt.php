@@ -28,17 +28,17 @@
         </div>
 
         <div class="whitespace"> </div>
-
+        <div class="whitespcae"> </div>
         <div>
           <h2>Wegbeschreibung</h2> 
           <img src="images/map.jpg" alt="Karte der Umgebung" style="width: 400px; float: left; margin-right: 20px;">
           <p>
-            Von der Autobahn A5 nehmen Sie die Ausfahrt "Riegel". Fahren Sie rechts ab auf die L113 in Richtung "Endingen", und folgen Sie dem Straßenverlauf. Bei den folgenden beiden Kreisverkehren nehmen Sie zunächst die Ausfahrt nach Endingen, dann die nach Königschaffhausen.
+            Von der Autobahn A5 nehmen Sie die Ausfahrt "Riegel". Fahren Sie rechts ab auf die L113 in Richtung "Endingen" und folgen Sie dem Straßenverlauf. Bei den folgenden beiden Kreisverkehren nehmen Sie zunächst die Ausfahrt nach Endingen, dann die nach Königschaffhausen.
           </p>
-          <p> Nach ca. 1200m müssen Sie nun links abbiegen, und den nächsten Kreisvekehr gleich bei der ersten Ausfahrt verlassen. Nach ungefähr 3 km sollten Sie das Dorf Königschaffhausen erreicht haben.
+          <p> Nach ca. 1200 m müssen Sie nun links abbiegen, und den nächsten Kreisvekehr gleich bei der ersten Ausfahrt verlassen. Nach ungefähr 3 km sollten Sie das Dorf Königschaffhausen erreicht haben.
           </p>
           <p>
-Fahren Sie nun geradeaus weiter und biegen Sie dann vor der Winzergenossenschaft in Richtung Sasbach rechts ab. Folgen Sie dem Straßenverlauf, bis Sie kurz vor dem Ortsausgang nach dem letzten Haus rechts die Sasbacherstraße abgehen sehen. Biegen Sie ab, und nach etwa 200m steht links unsere Ferienwohnung.
+Fahren Sie nun geradeaus weiter und biegen Sie dann vor der Winzergenossenschaft in Richtung Sasbach rechts ab. Folgen Sie dem Straßenverlauf, kurz vor dem Ortsausgang nach dem letzten Haus biegen Sie rechts in die Sasbacherstraße ein. Nach etwa 200m haben Sie ihr Ziel erreicht.
           </p>
         </div>
       </div>

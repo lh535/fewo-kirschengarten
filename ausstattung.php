@@ -13,19 +13,19 @@
         <h2>Zimmer/Wohnung</h2>
           <ul>
             <li>2 Schlafzimmer mit einem Doppelbett/zwei Einzelbetten</li>
-            <li>Terasse</li>
-            <li>Zentralheizung</li>
+            <li>Terrasse</li>
+            <li>Fußbodenheizung</li>
             <li>Überdachte Unterstellmöglichkeit für ein Auto</li>
-            <li>Nichtracher-Wohnung (außer Terasse)</li>
+            <li>Nichtracher-Wohnung (außer Terrasse)</li>
           </ul>
         <h2>Küche</h2>
           <ul>
-            <li>Ausreichend Koch-und Essgeschirr</li>
+            <li>Ausreichend Koch- und Essgeschirr</li>
             <li>Geschirrspüler</li>
             <li>Küchenzeile</li>
             <li>Kühlschrank mit Gefrierfach</li>
             <li>Mikrowelle</li>
-            <li>Kaffeemaschine (normal oder Senseo)</li>
+            <li>Kaffeemaschine (normal und Senseo)</li>
             <li>Toaster</li>
             <li>Wasserkocher</li>
             <li>Mixer</li>

@@ -222,15 +222,64 @@ img {
 }
 .main-images .big-img {
   flex: 0 1 auto;
+  margin-right: 3px;
 }
 .main-images .small-img {
-  flex: 1 1 33.3333%;
+  flex: 1 1 32.6797%;
   display: flex;
   flex-direction: column;
   align-items: space-between;
 }
 .main-images .small-img img {
   width: 100%;
+  margin-top: 3px;
+}
+.modal {
+  display: none;
+  z-index: 2;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  left: 0px;
+  top: 0px;
+  overflow: auto;
+}
+.modal .prev-button,
+.modal .next-button,
+.modal .close-button {
+  color: white;
+  position: absolute;
+  top: 50%;
+  font-size: 30px;
+  font-weight: bold;
+  z-index: 5;
+}
+.modal .next-button {
+  right: 30px;
+}
+.modal .prev-button {
+  left: 30px;
+}
+.modal .close-button {
+  font-size: 50px;
+  top: 20px;
+  right: 20px;
+}
+.modal .close-button:hover,
+.modal .next-button:hover,
+.modal .prev-button:hover {
+  color: #999;
+  cursor: pointer;
+}
+.modal .gallery-content {
+  display: block;
+  position: relative;
+  padding: 0px;
+  height: 90%;
+  top: 5%;
+  width: auto;
+  margin: auto;
 }
 .just-text > * {
   margin: 10px 20px;
@@ -290,8 +339,6 @@ footer a {
   bottom: 20px;
   right: 20px;
   color: #a84557;
-}
-span {
   mouse-events: none;
 }
 header {
@@ -301,6 +348,9 @@ header {
   z-index: 1;
   font-size: 18px;
   font-family: 'Open Sans', sans-serif;
+}
+header span {
+  mouse-events: none;
 }
 nav {
   display: flex;
@@ -343,7 +393,4 @@ nav {
 .header-main:hover,
 .dropdown-content a:hover {
   color: #b03d52;
-}
-span {
-  pointer-events: none;
 }

@@ -11,11 +11,11 @@
       <h1>Beschreibung</h1>
       <div class='content-wrapper' id='description-content'>
           <div class='main-images' >
-            <img class='big-img' src='images/front.jpg' alt='Vorderseite des Hauses'>
+            <img class='big-img image-gallery' src='images/front_2.jpg' alt='Vorderseite des Hauses'>
             <div class='small-img'>
-              <img src='images/air_photo.jpg' alt='Luftbild'>
-              <img src='images/bed.jpg' alt='Schlafzimmer'>
-              <img src='images/couch.jpg' alt='Wohnzimmer'>
+              <img src='images/air_photo.jpg' class='image-gallery' alt='Luftbild' style='margin-top: 0px;'>
+              <img src='images/church.jpg' class='image-gallery' alt='Königschaffhausen'>
+              <img src='images/bench.jpg' class='image-gallery' alt='Eingangsbereich'>
             </div>
           </div>
 
@@ -32,50 +32,59 @@ Die Wohnung wurde vom Deutschen Tourismus-Verband mit 5 Sternen klassifiziert.
 Die Zimmer sind komfortabel und modern eingerichtet. 
           </p>
         <div class='two-images'>
-          <img src='images/terrace.jpg' alt='Terasse'>
-          <img src='images/combined.jpg' alt='Eß- und Wohnbereich'>
+          <img src='images/terrace.jpg' class='image-gallery' alt='Terasse'>
+          <img src='images/combined.jpg' class='image-gallery' alt='Eß- und Wohnbereich'>
         </div>
       </div>
 
       <div class='paragraph'>
         <p class='main-text'>
           Im Essbereich erwartet Sie eine komplett eingerichtete Einbauküche.<br>
- Gleich daneben finden sie einen Wohbereich mit SAT-TV und Stereoanlage, der zum Entspannen einlädt. 
+ Gleich daneben finden sie einen Wohnbereich mit SAT-TV, der zum Entspannen einlädt. 
         </p>
         <div class='two-images'>
-          <img src='images/kitchen.jpg' alt='Küche'>
-          <img src='images/living_room.jpg' alt='Wohnbereich'>
+          <img src='images/kitchen.jpg' class='image-gallery' alt='Küche'>
+          <img src='images/couch.jpg' class='image-gallery' alt='Wohnzimmer'>
         </div>
       </div>
 
       <div class='paragraph'>
       <p class='main-text'>
-        Die zwei bequemen Schlafzimmer mit Aussicht ins nahe Elsass (Vogesen) besitzen ausreichend Verstauungsmöglichkeiten. Insgesamt gibt es ein Doppelbett und zwei Einzelbetten.
+        Die zwei bequemen Schlafzimmer mit Aussicht ins nahe Elsass (Vogesen) besitzen ausreichend Verstauungsmöglichkeiten.
       </p>
       <div class='two-images'>
-          <img src='images/bedroom_big.jpg' alt='Schlafzimmer mit Doppelbett'>
-          <img src='images/bedroom_small.jpg' alt='Schlafzimmer mit zwei Einzelbetten'>
+          <img src='images/bed.jpg' class='image-gallery' alt='Schlafzimmer mit Doppelbett'>
+          <img src='images/bedroom_small.jpg' class='image-gallery' alt='Schlafzimmer mit zwei Einzelbetten'>
       </div>
     </div>
 
       <div class='paragraph'>
       <p class='main-text'>
-        Das Badezimmer verfügt über eine Dusche und Badewanne und lädt nach einem erlebnisreichen Tag zum Entspannen ein.<br>
+        Das Badezimmer mit Dusche und Badewanne lädt nach einem erlebnisreichen Tag zum Entspannen ein.<br>
         Im Erdgeschoß finden Sie eine seperate Waschküche und einen großen Flur, in dem Sie beispielsweise Ihre Fahrräder sicher unterbringen können.
       </p>
       <div class='two-images'>
-          <img src='images/bath_1.jpg' alt='Badezimmer'>
-          <img src='images/entrance.jpg' alt='Eingangsbereich und Flur'>
+          <img src='images/bath_1.jpg' class='image-gallery' alt='Badezimmer'>
+          <img src='images/entrance.jpg' class='image-gallery' alt='Eingangsbereich und Flur'>
       </div>
     </div>
   
       <p class='main-text'>
-        Hier finden sie noch einen detailierten Grundriss der Ferienwohnung: <a href='images/grundriss_redraw.png'>Grundriss</a>
+        Hier finden sie noch einen detailierten Grundriss der Ferienwohnung: <a href='images/grundriss_redraw.png' class='image-gallery'>Grundriss</a>
       </p>
-<p>Die Waschküche und Unterstellmöglichkeiten befinden sind im Erdgeschoss und demnach hier nicht abgebildet.</p>
+<p>Die Waschküche und Unterstellmöglichkeiten befinden sich im Erdgeschoss und sind demnach hier nicht abgebildet.</p>
     </div>
   <?php include 'footer.php'; ?>
     </div>
+
+    <!-- Image Gallery -->
+    <div class='modal'>
+      <span class='close-button' onclick='closeGallery()'>&times;</span>
+      <img src="" alt="gallery image" class="gallery-content">
+      <span class='prev-button' onclick='prevPicture()'>&#10094;</span>
+      <span class='next-button' onclick='nextPicture()'>&#10095;</span>
+    </div>
+    <script>initGallery();</script>
   </body>
   <script type='text/javascript' src='scripts/navbar.js'></script>
 </html>
