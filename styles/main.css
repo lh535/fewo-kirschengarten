@@ -4,9 +4,6 @@
   overflow: hidden;
   min-height: 100vh;
 }
-#homepage-main #up-button {
-  display: none;
-}
 #homepage-main::after {
   background: url("../images/homepage_2.jpg");
   position: absolute;
@@ -26,17 +23,20 @@
   margin: 120px 0px 80px 0px;
   text-align: center;
 }
-#homepage-logo #home_small_logo {
+#homepage-logo p {
+  margin: 10px 25px;
+}
+#home_small_logo {
   font-size: 70px;
 }
-#homepage-logo #home_big_logo {
+#home_big_logo {
   font-size: 100px;
 }
 #home_button_div {
   margin-bottom: 200px;
   text-align: center;
 }
-#home_button_div .home_buttons {
+.home_buttons {
   font-size: 30px;
   color: white;
   border: 2px;
@@ -46,7 +46,7 @@
   padding: 10px 20px;
   background-color: rgba(0, 0, 0, 0.05);
 }
-#home_button_div .home_buttons:hover {
+.home_buttons:hover {
   background-color: rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
@@ -112,15 +112,48 @@
   }
 }
 @media only screen and (max-width: 768px) {
-  .content-wrapper {
-    margin: 0px 8px 20px 8px;
+  html .content-wrapper {
+    margin: 0px 8px 50px 8px;
     padding: 30px 40px;
   }
-  .paragraph {
+  html p {
+    font-size: 18px;
+  }
+  html .paragraph {
+    flex-direction: column;
+    margin: 10px 0px;
+  }
+  html .home_button_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  html .home_buttons {
+    margin: 15px 0px;
+    width: 350px;
+    padding: 20px 20px;
+  }
+  html .gallery-content {
+    width: 100%;
+    height: auto;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  html #home_small_logo {
+    font-size: 50px;
+  }
+  html #home_big_logo {
+    font-size: 70px;
+  }
+  html .whitespace {
+    display: none;
+  }
+  html #header-right-container {
+    display: none;
     flex-direction: column;
   }
-  .home_buttons {
-    margin: 15px 0px;
+  html #header-mobile-dropdown {
+    display: block;
   }
 }
 html {
@@ -257,9 +290,9 @@ img {
   top: 0px;
   overflow: auto;
 }
-.modal .prev-button,
-.modal .next-button,
-.modal .close-button {
+.prev-button,
+.next-button,
+.close-button {
   color: white;
   position: absolute;
   top: 50%;
@@ -267,24 +300,24 @@ img {
   font-weight: bold;
   z-index: 5;
 }
-.modal .next-button {
+.next-button {
   right: 30px;
 }
-.modal .prev-button {
+.prev-button {
   left: 30px;
 }
-.modal .close-button {
+.close-button {
   font-size: 50px;
   top: 20px;
   right: 20px;
 }
-.modal .close-button:hover,
-.modal .next-button:hover,
-.modal .prev-button:hover {
+.close-button:hover,
+.next-button:hover,
+.prev-button:hover {
   color: #999;
   cursor: pointer;
 }
-.modal .gallery-content {
+.gallery-content {
   display: block;
   position: relative;
   padding: 0px;
@@ -371,10 +404,14 @@ nav {
   display: flex;
   justify-content: space-between;
   padding: 0px 30px;
+  align-items: center;
 }
 #header-right-container {
   display: flex;
   justify-content: end;
+}
+#header-mobile-dropdown {
+  display: none;
 }
 .header-main {
   padding: 25px 20px;

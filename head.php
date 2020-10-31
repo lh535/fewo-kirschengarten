@@ -7,7 +7,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet"> 
 <link rel="icon" href="images/favicon.ico">
 
-<meta name="viewport" content="user-scalable=yes">
+<meta name="viewport" content="width=device-width, user-scalable=yes">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="description" content="Fünf-Sterne Ferienwohnung am Kaiserstuhl"
 <meta name="author" content="Lisa Hofert">

@@ -30,5 +30,8 @@
 
     <a class="header-main" href='anfahrt.php'>ANFAHRT</a>
   </div>
+  <div id="header-mobile-dropdown">
+    <span class="header-main" id="hamburger-button">&#x2630;</span>
+  </div>
 </nav>
 </header>
