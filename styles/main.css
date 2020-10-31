@@ -143,15 +143,15 @@ h2 {
   margin: 10px 20px;
 }
 p {
-  margin: 10px 25px;
+  margin: 30px 25px;
 }
 img {
-  margin: 10px 25px;
+  margin: 30px 25px;
   width: 100%;
   height: 100%;
 }
-#image_gallery {
-  position: absolute;
+.image-gallery:hover {
+  cursor: pointer;
 }
 #main {
   position: relative;
@@ -281,21 +281,32 @@ img {
   width: auto;
   margin: auto;
 }
-.just-text > * {
+.centered-text > * {
   margin: 10px 20px;
 }
-.just-text p {
+.centered-text p {
   text-align: center;
 }
-.just-text .small-text {
+.centered-text .small-text {
   margin: 5px 20px;
   font-size: 0.6em;
   display: inline;
   font-weight: normal;
 }
-.just-text h2 {
+.centered-text h2 {
   text-align: center;
   display: inline;
+}
+.thirds-container {
+  display: flex;
+}
+.two-thirds {
+  flex: 1 0 70%;
+}
+.one-third {
+  flex: 1 0 30%;
+  display: flex;
+  flex-direction: column;
 }
 table {
   align-self: center;

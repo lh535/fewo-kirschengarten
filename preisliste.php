@@ -9,7 +9,7 @@
     <div id='main'>
     <script>setTopOffset()</script>
       <h1>Preisliste</h1>
-      <div class='content-wrapper just-text' id='description-content'>
+      <div class='content-wrapper centered-text' id='description-content'>
         <h2>Preise<p class="small-text">(gültig bis 31.12.2021)</p></h2>
         <table id="price-table">
           <tr>

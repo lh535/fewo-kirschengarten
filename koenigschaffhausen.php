@@ -10,8 +10,8 @@
     <script>setTopOffset()</script>
       <h1>KÖNIGSCHAFFHAUSEN</h1>
       <div class='content-wrapper' id='description-content'>
-        <div class='two-thirds'>
-          <div>
+        <div class='thirds-container'>
+          <div class='two-thirds'>
           <p>
             Das Dorf Königschaffhausen, ein Stadtteil von Endingen,  liegt idyllisch eingebettet zwischen Kaiserstuhl und 
 Rhein und ist geprägt vom Obst- und Weinbau.
@@ -34,12 +34,24 @@ Falls Sie herausfinden wollen, was es in der Umgebung zu entdecken gibt, besuche
             Weitere Informationen zu Königschaffhausen finden Sie auf  der Website des <a href="https://koenigschaffhausen-am-kaiserstuhl.de/#kaiserstuehler">Tourismusvereins</a>.
           </p>
           </div>
-          <div>
+          <div class='one-third'>
+            <img src="images/blossoms.jpg" class="image-gallery" alt="Kirche von Königschaffhausen">
+            <img src="images/koenigschaffhausen.jpg" class="image-gallery" alt="Bild von Königschaffhausen">
+            <img src="images/cherries.jpg" class="image-gallery" alt="Bild von Kirschen">
           </div>
         </div>
       </div>
     <?php include 'footer.php'; ?>
     </div>
+
+    <!-- Image Gallery -->
+    <div class='modal'>
+      <span class='close-button' onclick='closeGallery()'>&times;</span>
+      <img src="" alt="gallery image" class="gallery-content">
+      <span class='prev-button' onclick='prevPicture()'>&#10094;</span>
+      <span class='next-button' onclick='nextPicture()'>&#10095;</span>
+    </div>
+    <script>initGallery();</script>
   </body>
   <script type='text/javascript' src='scripts/navbar.js'></script>
 </html>

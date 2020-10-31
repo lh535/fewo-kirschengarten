@@ -31,7 +31,7 @@
         <div class="whitespcae"> </div>
         <div>
           <h2>Wegbeschreibung</h2> 
-          <img src="images/map.jpg" alt="Karte der Umgebung" style="width: 400px; float: left; margin-right: 20px;">
+          <img src="images/map.jpg" alt="Karte der Umgebung" style="width: 400px; float: left; margin-right: 20px; margin-bottom: 0px;">
           <p>
             Von der Autobahn A5 nehmen Sie die Ausfahrt "Riegel". Fahren Sie rechts ab auf die L113 in Richtung "Endingen" und folgen Sie dem Straßenverlauf. Bei den folgenden beiden Kreisverkehren nehmen Sie zunächst die Ausfahrt nach Endingen, dann die nach Königschaffhausen.
           </p>

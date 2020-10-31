@@ -40,19 +40,19 @@ h2 {
 }
 
 p {
-  margin: 10px 25px;
+  margin: 30px 25px;
 }
 
 img {
-  margin: 10px 25px;
+  margin: 30px 25px;
   width: 100%;
   height: 100%;
 }
 
-// this pops up when someone clicks on a picture
-#image_gallery {
-  position: absolute;
+.image-gallery:hover {
+  cursor: pointer;
 }
+
 
 // entire body after the header is inside main
 #main {
@@ -195,7 +195,7 @@ img {
 }
 
 
-.just-text {
+.centered-text {
   >* {
     margin: 10px 20px;
   }
@@ -213,6 +213,19 @@ img {
     display: inline;
   }
 }
+
+.thirds-container {
+  display: flex;
+}
+.two-thirds {
+  flex: 1 0 70%;
+}
+.one-third {
+  flex: 1 0 30%;
+  display: flex;
+  flex-direction: column;
+}
+
 
 table {
   align-self: center;
