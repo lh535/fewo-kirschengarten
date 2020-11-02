@@ -21,6 +21,9 @@ function toggleDropdown(dropdownDiv, justActivate, justDeactivate) {
 
 // closes all dropdowns. If except specifies a header div, skip that one
 function closeAllDropdown(except=undefined) {
+  if (mobile) {
+    return;
+  }
   headerDiv.forEach((div) => {
     if (except != undefined && div == except) {
       return;
@@ -50,6 +53,27 @@ window.onclick =  (e) => {
   closeAllDropdown();
 };
 
+// for mobile
+let mobile = false;
+let mobileActive = false;
+
+function toggleMobileDropdown() {
+  mobile = true;
+  mobileDropdownPosition();
+  let dropdown = document.querySelector("#header-right-container");
+  if (mobileActive) {
+    dropdown.style.display = "none";
+  }
+  else {
+    dropdown.style.display = "flex";
+  }
+  mobileActive = !(mobileActive);
+}
+
+function mobileDropdownPosition() {
+  let header = document.querySelector("header");
+  document.querySelector("#header-right-container").style.top = String(header.clientHeight) + "px";
+}
 /* for hover. temporarily disabled since using both clicking and hover is counterintuitive (?)
 
 // event listener for dropdown hover - only opens, and keeps open since it targets entire div

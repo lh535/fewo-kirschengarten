@@ -10,7 +10,7 @@
     <script>setTopOffset()</script>
       <h1>Kontakt</h1>
       <div class='content-wrapper' id='description-content'>
-        <div class='paragraph'>
+        <div class='paragraph' style="flex-direction: row;">
           <div>
           <p>
             <b>Kontaktmöglichkeiten</b><br>
@@ -25,7 +25,7 @@
             79346 Endingen-Königschaffhausen<br>
           </p>
           </div>
-          <img src="images/home_background.jpg" alt="Aquarell-Logo der Ferienwohnung">
+          <img id="kontakt-image" src="images/home_background.jpg" alt="Aquarell-Logo der Ferienwohnung">
         </div>
       </div>
     <?php include 'footer.php'; ?>

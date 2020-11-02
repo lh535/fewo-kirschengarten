@@ -1,17 +1,44 @@
+// change background for portrait
+@media only screen and (orientation: portrait) {
+  html {
+    #main::after {
+      background: url("../images/mobile-background.png");
+      background-attachment: fixed;
+      background-size: cover;
+    }
+    #homepage-main::after {
+      background: url("../images/mobile-homepage.png");
+      background-size: cover;
+      background-attachment: fixed;
+    }
+  }
+}
+
+// change layout for less than 768px. Adjust some sizing
 @media only screen and (max-width: 768px) {
   html {  // add this so @media rules have higher specificity
   .content-wrapper {
     margin: 0px 8px 50px 8px;
-    padding: 30px 40px;
+    padding: 30px;
   }
   p {
+    font-size: 18px;
+  }
+  h1 {
+    font-size: 40px;
+    margin: 45px 0px;
+  }
+  footer {
     font-size: 18px;
   }
   .paragraph {
     flex-direction: column;
     margin: 10px 0px;
+    >* {
+      margin: 10px 20px;
+    }
   }
-  .home_button_div {
+  #home_button_div {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,10 +68,105 @@
   #header-right-container {
     display: none;
     flex-direction: column;
+    position: absolute;
+    right: 0px;
+    top: 77px;
+    background-color: #eaf6eb;
+    width: 300px;
+    box-shadow: 0px 3px 4px rgba(115, 107, 107, 0.3);
+    >* {
+      margin: 0px 50px;
+    }
   }
   #header-mobile-dropdown {
     display: block;
     font-size: 22px;
   }
+  .dropdown-content.active {
+    position: relative;
+    box-shadow: none;
+    background-color: #eaf6eb;
+  }
+
+  .thirds-container {
+    flex-direction: column;
+  }
+  .one-third {
+    flex-direction: row;
+  }
+  }
+}
+
+// make everything even smaller
+@media only screen and (max-width: 480px) {
+  html {
+    nav {
+      padding: 0px 10px;
+      font-size: 14px;
+    }
+    .header-main {
+      padding: 25px 10px;
+    }
+    #hamburger-button {
+      margin-right: 15px;
+    }
+    .dropdown-content.active {
+      padding: 0px;
+    }
+    #header-right-container .header-main {
+      padding: 15px 10px;
+    }
+
+    h1 {
+      font-size: 25px;
+      margin: 15px 0px;
+    }
+    h2 {
+      font-size: 20px;
+    }
+    p, li {
+      font-size: 16px;
+      margin: 20px 10px;
+    }
+    .content-wrapper {
+      padding: 15px;
+    }
+    table {
+      font-size: 13px;
+      td, th {
+        padding: 5px;
+      }
+    }
+    .paragraph iframe {
+      min-height: 600px;
+    }
+    #google-map {
+      display: none;
+    }
+    #drawn-map {
+      width: 300px;
+      margin-bottom: 20px;
+    }
+    img {
+      margin: 5px;
+    }
+    #kontakt-image {
+      display: none;
+    }
+
+    #homepage-logo {
+      margin: 70px 0px 90px 0px;
+    }
+    .home_buttons {
+      width: 270px;
+      font-size: 25px;
+    }
+
+    #home_small_logo {
+      font-size: 30px;
+    }
+    #home_big_logo {
+      font-size: 40px;
+    }
   }
 }

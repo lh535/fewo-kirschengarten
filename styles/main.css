@@ -111,19 +111,41 @@
     opacity: 1;
   }
 }
+@media only screen and (orientation: portrait) {
+  html #main::after {
+    background: url("../images/mobile-background.png");
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  html #homepage-main::after {
+    background: url("../images/mobile-homepage.png");
+    background-size: cover;
+    background-attachment: fixed;
+  }
+}
 @media only screen and (max-width: 768px) {
   html .content-wrapper {
     margin: 0px 8px 50px 8px;
-    padding: 30px 40px;
+    padding: 30px;
   }
   html p {
+    font-size: 18px;
+  }
+  html h1 {
+    font-size: 40px;
+    margin: 45px 0px;
+  }
+  html footer {
     font-size: 18px;
   }
   html .paragraph {
     flex-direction: column;
     margin: 10px 0px;
   }
-  html .home_button_div {
+  html .paragraph > * {
+    margin: 10px 20px;
+  }
+  html #home_button_div {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -151,9 +173,99 @@
   html #header-right-container {
     display: none;
     flex-direction: column;
+    position: absolute;
+    right: 0px;
+    top: 77px;
+    background-color: #eaf6eb;
+    width: 300px;
+    box-shadow: 0px 3px 4px rgba(115, 107, 107, 0.3);
+  }
+  html #header-right-container > * {
+    margin: 0px 50px;
   }
   html #header-mobile-dropdown {
     display: block;
+    font-size: 22px;
+  }
+  html .dropdown-content.active {
+    position: relative;
+    box-shadow: none;
+    background-color: #eaf6eb;
+  }
+  html .thirds-container {
+    flex-direction: column;
+  }
+  html .one-third {
+    flex-direction: row;
+  }
+}
+@media only screen and (max-width: 480px) {
+  html nav {
+    padding: 0px 10px;
+    font-size: 14px;
+  }
+  html .header-main {
+    padding: 25px 10px;
+  }
+  html #hamburger-button {
+    margin-right: 15px;
+  }
+  html .dropdown-content.active {
+    padding: 0px;
+  }
+  html #header-right-container .header-main {
+    padding: 15px 10px;
+  }
+  html h1 {
+    font-size: 25px;
+    margin: 15px 0px;
+  }
+  html h2 {
+    font-size: 20px;
+  }
+  html p,
+  html li {
+    font-size: 16px;
+    margin: 20px 10px;
+  }
+  html .content-wrapper {
+    padding: 15px;
+  }
+  html table {
+    font-size: 13px;
+  }
+  html table td,
+  html table th {
+    padding: 5px;
+  }
+  html .paragraph iframe {
+    min-height: 600px;
+  }
+  html #google-map {
+    display: none;
+  }
+  html #drawn-map {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  html img {
+    margin: 5px;
+  }
+  html #kontakt-image {
+    display: none;
+  }
+  html #homepage-logo {
+    margin: 70px 0px 90px 0px;
+  }
+  html .home_buttons {
+    width: 270px;
+    font-size: 25px;
+  }
+  html #home_small_logo {
+    font-size: 30px;
+  }
+  html #home_big_logo {
+    font-size: 40px;
   }
 }
 html {
@@ -246,6 +358,7 @@ img {
 }
 .paragraph iframe {
   min-height: 450px;
+  min-width: 60%;
 }
 .two-images {
   flex: 0 0 50%;
@@ -266,11 +379,11 @@ img {
   margin: 0px;
 }
 .main-images .big-img {
-  flex: 0 1 auto;
+  flex: 1 1 auto;
   margin-right: 3px;
 }
 .main-images .small-img {
-  flex: 1 1 32.6797%;
+  flex: 1 1 32%;
   display: flex;
   flex-direction: column;
   align-items: space-between;
@@ -352,6 +465,15 @@ img {
   flex: 1 0 30%;
   display: flex;
   flex-direction: column;
+}
+.one-third img {
+  height: auto;
+}
+#drawn-map {
+  width: 400px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 0px;
 }
 table {
   align-self: center;
