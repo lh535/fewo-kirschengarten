@@ -34,10 +34,12 @@ Falls Sie herausfinden wollen, was es in der Umgebung zu entdecken gibt, besuche
             Weitere Informationen zu Königschaffhausen finden Sie auf  der Website des <a href="https://koenigschaffhausen-am-kaiserstuhl.de/#kaiserstuehler">Tourismusvereins</a>.
           </p>
           </div>
-          <div class='one-third'>
+          <div class='one-third' style="height: 900px;">
             <img src="images/blossoms.jpg" class="image-gallery" alt="Kirche von Königschaffhausen">
             <img src="images/koenigschaffhausen.jpg" class="image-gallery" alt="Bild von Königschaffhausen">
             <img src="images/cherries.jpg" class="image-gallery" alt="Bild von Kirschen">
+            <img src="images/sunflower.jpg" class="image-gallery" alt="Sonnenblume">
+            <img src="images/sunset.jpg" class="image-gallery" alt="Sonnenuntergang"> 
           </div>
         </div>
       </div>

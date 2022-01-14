@@ -70,9 +70,9 @@ Die Zimmer sind komfortabel und modern eingerichtet.
     </div>
   
       <p class='main-text'>
-        Hier finden sie noch einen detailierten Grundriss der Ferienwohnung: <a href='images/grundriss_redraw.png' class='image-gallery'>Grundriss</a>
-      </p>
-<p>Die Waschküche und Unterstellmöglichkeiten befinden sich im Erdgeschoss und sind demnach hier nicht abgebildet.</p>
+        Hier finden sie noch einen detailierten Grundriss der Ferienwohnung: <a href='images/grundriss_redraw.png' class='image-gallery'>Grundriss</a> <br>
+   	Die Waschküche und Unterstellmöglichkeiten befinden sich im Erdgeschoss und sind demnach hier nicht abgebildet.
+   	</p>
     </div>
   <?php include 'footer.php'; ?>
     </div>

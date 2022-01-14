@@ -30,6 +30,8 @@
         <div class='one-third'>
           <img src="images/sign.jpg" class="image-gallery" alt="Wanderung am Kaiserstuhl">
           <img src="images/vogtsburg.jpg" class="image-gallery" alt="Vogtsburg">
+          <img src="images/kaiserstuhl.jpg" class="image-gallery" alt="Kaiserstuhl">
+          <img src="images/butterfly.jpg" class="image-gallery" alt="Blume mit Biene und Schmetterling">
         </div>
       </div>
     </div>
