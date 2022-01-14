@@ -10,6 +10,8 @@ function setTopOffset(toOffSet) {
 
 // photo gallery
 let gallery, galleryContent, currentIndex, gallerySize, galleryPictures;
+let open = false;  // bool for keeping track of if gallery is open
+
 
 function initGallery() {
   gallery = document.querySelector(".modal");
@@ -36,11 +38,12 @@ function openGallery(num) {
   else {
   galleryContent.src = galleryPictures[currentIndex].src;
   }
-  return false;
+  open = true
 }
 
 function closeGallery() {
   gallery.style.display = "none";
+  open = false
 }
 
 function nextPicture() {
@@ -63,6 +66,7 @@ function prevPicture() {
   }
 }
 
+// click outside of image and buttons while gallery is open to close
 function checkClose() {
     modal = document.querySelector(".modal");
     modal.addEventListener('click', function(e) {
@@ -74,6 +78,16 @@ function checkClose() {
   });
 }
 
+
+// while modal is open: use keys to navigate
+document.addEventListener('keyup', (e) => {
+  if (open) {
+    if (e.code == "ArrowLeft") prevPicture()
+
+    else if (e.code == "ArrowRight") nextPicture()
+  }
+});
+    
 
 // add height of all images in the small image div and
 // set height of big image to that

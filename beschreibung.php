@@ -85,6 +85,7 @@ Die Zimmer sind komfortabel und modern eingerichtet.
       <span class='next-button' onclick='nextPicture()'>&#10095;</span>
     </div>
     <script>initGallery();</script>
+    <script>checkClose();</script>
   </body>
   <script type='text/javascript' src='scripts/navbar.js'></script>
 </html>
