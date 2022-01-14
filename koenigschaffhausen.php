@@ -54,6 +54,7 @@ Falls Sie herausfinden wollen, was es in der Umgebung zu entdecken gibt, besuche
       <span class='next-button' onclick='nextPicture()'>&#10095;</span>
     </div>
     <script>initGallery();</script>
+    <script>checkClose();</script>
   </body>
   <script type='text/javascript' src='scripts/navbar.js'></script>
 </html>

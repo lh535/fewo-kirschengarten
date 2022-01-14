@@ -63,6 +63,17 @@ function prevPicture() {
   }
 }
 
+function checkClose() {
+    modal = document.querySelector(".modal");
+    modal.addEventListener('click', function(e) {
+    let clicked = e.target.className;
+    if (clicked != undefined && (clicked == "prev-button" || clicked == "next-button" || clicked == "gallery-content")) {
+      return;
+    }
+    closeGallery();
+  });
+}
+
 
 // add height of all images in the small image div and
 // set height of big image to that
