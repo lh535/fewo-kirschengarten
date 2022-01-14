@@ -9,7 +9,7 @@ function setTopOffset(toOffSet) {
 }
 
 // photo gallery
-let gallery, galleryContent, currentIndex, gallerySize, galleryPictures;
+let gallery, galleryContent, currentIndex, gallerySize, galleryPictures, galleryText;
 let open = false;  // bool for keeping track of if gallery is open
 
 
@@ -27,6 +27,7 @@ function initGallery() {
     });
   });
   gallerySize = galleryPictures.length;
+  galleryText = document.getElementById("imagenum");
 }
 
 function openGallery(num) {
@@ -38,12 +39,16 @@ function openGallery(num) {
   else {
   galleryContent.src = galleryPictures[currentIndex].src;
   }
+  galleryText.innerHTML = String(currentIndex + 1) + " / " + String(gallerySize)
   open = true
+  disableScroll();
 }
 
 function closeGallery() {
   gallery.style.display = "none";
+  galleryText.innerHTML = ""
   open = false
+  enableScroll();
 }
 
 function nextPicture() {
@@ -54,6 +59,7 @@ function nextPicture() {
   else {
   galleryContent.src = galleryPictures[currentIndex].src;
   }
+  galleryText.innerHTML = String(currentIndex + 1) + " / " + String(gallerySize)
 }
 
 function prevPicture() {
@@ -64,6 +70,7 @@ function prevPicture() {
   else {
   galleryContent.src = galleryPictures[currentIndex].src;
   }
+  galleryText.innerHTML = String(currentIndex + 1) + " / " + String(gallerySize)
 }
 
 // click outside of image and buttons while gallery is open to close
@@ -88,6 +95,16 @@ document.addEventListener('keyup', (e) => {
   }
 });
     
+    
+// for disabling scrolling while gallery is open
+function disableScroll() {
+  document.children[0].style.overflow  = 'hidden';
+}
+
+function enableScroll() {
+  document.children[0].style.overflow = '';
+}
+  
 
 // add height of all images in the small image div and
 // set height of big image to that

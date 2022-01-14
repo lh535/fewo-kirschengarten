@@ -25,7 +25,7 @@
   text-transform: uppercase;
   font-family: 'Roboto Condensed', 'Open-Sans', sans-serif;
   color: #FFF;
-  margin: 70px 0px 80px 0px;
+  margin: 100px 0px 80px 0px;
   text-align: center;
 }
 #homepage-logo p {
@@ -250,6 +250,13 @@ img {
 }
 .image-gallery:hover {
   cursor: pointer;
+}
+#imagenum {
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+  width: 100%;
+  color: white;
 }
 #main {
   position: relative;

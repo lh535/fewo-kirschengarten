@@ -44,6 +44,7 @@
       <img src="" alt="gallery image" class="gallery-content">
       <span class='prev-button' onclick='prevPicture()'>&#10094;</span>
       <span class='next-button' onclick='nextPicture()'>&#10095;</span>
+      <div id="imagenum"></div>
     </div>
     <script>initGallery();</script>
     <script>checkClose();</script>
