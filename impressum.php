@@ -17,7 +17,7 @@
           Sasbacher Str. 4<br>
           79346 Endingen<br>
           Telefon: 07642/1290<br>
-          Email: <a href='mailto:info@fewo-kirschengarten.de'>info@fewo-kirschengarten.de></a><br>
+          Email: <a href='mailto:info@fewo-kirschengarten.de'>info@fewo-kirschengarten.de</a><br>
           </p>
           <div class='whitespace'></div>
           <p>
