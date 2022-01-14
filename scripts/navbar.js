@@ -22,7 +22,14 @@ function toggleDropdown(dropdownDiv, justActivate, justDeactivate) {
 // closes all dropdowns. If except specifies a header div, skip that one
 function closeAllDropdown(except=undefined) {
   if (mobile) {
-    return;
+    headerDiv.forEach((div) => {
+    if (except != undefined && div == except) {
+      return;
+    }
+    let dropdownMenu = div.querySelector(".dropdown-content");
+    dropdownMenu.classList.remove("active");
+    });
+    return
   }
   headerDiv.forEach((div) => {
     if (except != undefined && div == except) {
@@ -47,10 +54,15 @@ headerButtons.forEach((btn) => { btn.addEventListener('click', (e) => {
 // for clicks outside the dropdown, which close the menu if it was open before
 window.onclick =  (e) => {
   let classes = e.target.parentNode.classList;
-  if (classes != undefined && classes.length > 0 && classes[0] === "dropdown") {
+  let mobileClasses = e.target.classList;
+  if (classes != undefined && classes.contains("dropdown")) {
+    return;
+  }
+  if (mobile && mobileClasses != undefined && mobileClasses.contains("mobile-dropdown")) {
     return;
   }
   closeAllDropdown();
+  closeMobile();
 };
 
 // for mobile
@@ -69,6 +81,16 @@ function toggleMobileDropdown() {
   }
   mobileActive = !(mobileActive);
 }
+
+function closeMobile() {
+  let dropdown = document.querySelector("#header-right-container");
+  if (mobileActive) {
+    dropdown.style.display = "none";
+    mobileActive = false;
+  }
+}
+  
+
 
 function mobileDropdownPosition() {
   let header = document.querySelector("header");

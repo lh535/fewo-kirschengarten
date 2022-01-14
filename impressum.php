@@ -9,7 +9,7 @@
     <div id='main'>
     <script>setTopOffset()</script>
       <h1>IMPRESSUM</h1>
-      <div class='content-wrapper' id='description-content'>
+      <div class='content-wrapper' id='description-content' style='display: block;'>
           <p>
           <b>Verantwortlich für den Inhalt, Photos und Website:</b><br>
           Ferienwohnung Kirschengarten<br>
@@ -19,7 +19,6 @@
           Telefon: 07642/1290<br>
           Email: <a href='mailto:info@fewo-kirschengarten.de'>info@fewo-kirschengarten.de</a><br>
           </p>
-          <div class='whitespace'></div>
           <p>
           <b>Haftung für Inhalte</b><br>
 
