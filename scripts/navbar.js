@@ -20,7 +20,7 @@ function toggleDropdown(dropdownDiv, justActivate, justDeactivate) {
 }
 
 // closes all dropdowns. If except specifies a header div, skip that one
-function closeAllDropdown(except=undefined) {
+function closeAllDropdown(except) {
   if (mobile) {
     headerDiv.forEach((div) => {
     if (except != undefined && div == except) {
