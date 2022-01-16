@@ -122,9 +122,6 @@
     font-size: 28px;
     margin: 50px 30px;
   }
-  html h1 {
-    font-size: 70px;
-  }
   html table {
     font-size: 28px;
   }
@@ -149,6 +146,17 @@
   }
   html .one-third img {
     max-width: 70%;
+  }
+}
+@media only screen and (min-width: 2600px) {
+  html .content-wrapper {
+    max-width: 1800px;
+    margin: auto;
+    margin-bottom: 80px;
+  }
+  html p,
+  html li {
+    font-size: 35px;
   }
 }
 header {
@@ -230,7 +238,7 @@ h2 {
 h1 {
   font-family: "open-sans", sans-serif;
   text-align: center;
-  font-size: 50px;
+  font-size: 4em;
   position: relative;
   margin: 75px 0px;
   text-shadow: 0 3px 2px rgba(255, 255, 255, 0.3);
@@ -473,6 +481,7 @@ footer a {
     background: url("../images/mobile-homepage.png");
     background-size: cover;
     background-attachment: fixed;
+    top: 50px;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -504,7 +513,7 @@ footer a {
   }
   html .home_buttons {
     margin: 15px 0px;
-    width: 350px;
+    width: 80%;
     padding: 20px 20px;
   }
   html .gallery-content {
@@ -517,7 +526,7 @@ footer a {
     font-size: 50px;
   }
   html #home_big_logo {
-    font-size: 70px;
+    font-size: 60px;
   }
   html .whitespace {
     display: none;
@@ -529,7 +538,7 @@ footer a {
     right: 0px;
     top: 77px;
     background-color: #eaf6eb;
-    width: 300px;
+    width: 80%;
     box-shadow: 0px 3px 4px rgba(115, 107, 107, 0.3);
   }
   html #header-right-container > * {
@@ -557,7 +566,7 @@ footer a {
     font-size: 14px;
   }
   html .header-main {
-    padding: 25px 10px;
+    padding: 15px 10px;
   }
   html #hamburger-button {
     margin-right: 15px;
@@ -569,7 +578,7 @@ footer a {
     padding: 15px 10px;
   }
   html h1 {
-    font-size: 25px;
+    font-size: 1em;
     margin: 15px 0px;
   }
   html h2 {
@@ -578,13 +587,13 @@ footer a {
   html p,
   html li {
     font-size: 16px;
-    margin: 20px 10px;
+    margin: 10px;
   }
   html .content-wrapper {
     padding: 15px;
   }
   html table {
-    font-size: 13px;
+    font-size: 11px;
   }
   html table td,
   html table th {
@@ -592,12 +601,13 @@ footer a {
   }
   html .paragraph iframe {
     min-height: 600px;
+    max-width: 100%;
   }
   html #google-map {
     display: none;
   }
   html #drawn-map {
-    width: 300px;
+    width: 80%;
     margin-bottom: 20px;
   }
   html img {
@@ -610,13 +620,12 @@ footer a {
     margin: 70px 0px 90px 0px;
   }
   html .home_buttons {
-    width: 270px;
-    font-size: 25px;
+    font-size: 20px;
   }
   html #home_small_logo {
     font-size: 30px;
   }
   html #home_big_logo {
-    font-size: 40px;
+    font-size: 35px;
   }
 }

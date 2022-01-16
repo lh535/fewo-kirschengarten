@@ -12,7 +12,7 @@
       <div class='content-wrapper' id='description-content'>
         <div class='paragraph' style="flex-direction: row;">
           <div>
-            <p>
+            <p style="margin: 0px;">
               <b>Adresse:</b><br>
               Ferienwohnung Kirschengarten<br>
               Sasbacherstr. 4<br>

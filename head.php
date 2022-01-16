@@ -5,6 +5,7 @@
 <link rel='stylesheet' type='text/css' href='styles/main.css'>
 <script type='text/javascript' src='scripts/main.js'></script>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet"> 
+<!-- <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet"> -->
 <link rel="icon" href="images/favicon.ico">
 
 <meta name="viewport" content="width=device-width, inital-scale=1.0 user-scalable=yes">
