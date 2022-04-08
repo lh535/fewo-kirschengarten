@@ -28,11 +28,11 @@ Die Wohnung wurde vom Deutschen Tourismus-Verband mit 5 Sternen klassifiziert.
         </div>
         <div class='paragraph'>
           <p class='main-text'>
-            Die Ferienwohnung verfügt über großzügige, helle Räume mit insgesamt 85m<sup>2</sup> Wohnfläche und einer 12m<sup>2</sup> großen überdachten Terasse.
+            Die Ferienwohnung verfügt über großzügige, helle Räume mit insgesamt 85m<sup>2</sup> Wohnfläche und einer 12m<sup>2</sup> großen überdachten Terrasse.
 Die Zimmer sind komfortabel und modern eingerichtet. 
           </p>
         <div class='two-images'>
-          <img src='images/terrace.jpg' class='image-gallery' alt='Terasse'>
+          <img src='images/terrace.jpg' class='image-gallery' alt='Terrasse'>
           <img src='images/combined.jpg' class='image-gallery' alt='Eß- und Wohnbereich'>
         </div>
       </div>

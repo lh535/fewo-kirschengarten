@@ -4,7 +4,7 @@
   
   <div id="header-right-container" class="mobile-dropdown">
     <div class="dropdown mobile-dropdown"> 
-      <div class="dropdown-btn header-main mobile-dropdown">WOHNUNG <span class="dropdown-triangle mobile-dropdown">&#x25BC;</span></div>
+      <div class="dropdown-btn header-main mobile-dropdown">WOHNUNG&nbsp;<span class="dropdown-triangle mobile-dropdown">&#x25BC;</span></div>
       <div class="dropdown-content">
         <a href='beschreibung.php'>BESCHREIBUNG</a>
         <a href='ausstattung.php'>AUSSTATTUNG</a>
@@ -12,7 +12,7 @@
     </div>
 
     <div class="dropdown mobile-dropdown">
-      <div class="dropdown-btn header-main mobile-dropdown">KAISERSTUHL <span class="dropdown-triangle mobile-dropdown">&#x25BC;</span></div>
+      <div class="dropdown-btn header-main mobile-dropdown">KAISERSTUHL&nbsp;<span class="dropdown-triangle mobile-dropdown">&#x25BC;</span></div>
       <div class="dropdown-content">
         <a href='koenigschaffhausen.php'>KÖNIGSCHAFFHAUSEN</a>
         <a href='umgebung.php'>UMGEBUNG</a>
@@ -20,7 +20,7 @@
     </div>
 
     <div class="dropdown mobile-dropdown">
-      <div class="dropdown-btn header-main mobile-dropdown">BUCHUNG <span class="dropdown-triangle mobile-dropdown">&#x25BC;</span></div>
+      <div class="dropdown-btn header-main mobile-dropdown">BUCHUNG&nbsp;<span class="dropdown-triangle mobile-dropdown">&#x25BC;</span></div>
       <div class="dropdown-content">
         <a href='preisliste.php'>PREISLISTE</a>
         <a href='belegungsplan.php'>BELEGUNGSPLAN</a>

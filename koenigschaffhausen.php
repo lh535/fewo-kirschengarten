@@ -17,7 +17,7 @@
 Rhein und ist geprägt vom Obst- und Weinbau.
           </p>
           <p>
-          Es ist ein idealer Ausgansort für Wanderungen, Radtouren und Ausflüge.<br> 
+          Es ist ein idealer Ausgangsort für Wanderungen, Radtouren und Ausflüge.<br> 
 Im April findet auch jährlich in und um Königschaffhausen die <a href="https://koenigschaffhausen-am-kaiserstuhl.de/bluetenwanderung/">Blütenwanderung</a> statt. Hier können Sie die Umgebung und ausgewählte Angebote aus der lokalen Gastronomie geniessen.<br>
 </p>
 <p>
