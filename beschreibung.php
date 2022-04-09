@@ -21,14 +21,14 @@
 
           <p class='main-text'>
             Unsere Ferienwohnung liegt inmitten der Natur am Ortsrand von Königschaffhausen, mit einem herrlichen Blick über den Kaiserstuhl.
-Umgeben von Obstbäumen und in absolut ruhiger Lage bieten wir Ihnen Erholung und Entspannung pur.
-Die Wohnung wurde vom Deutschen Tourismus-Verband mit 5 Sternen klassifiziert.
+Umgeben von Obstbäumen und in absolut ruhiger Lage bieten wir Ihnen Erholung und Entspannung pur.<br>
+Die Wohnung wurde vom Deutschen Tourismusverband mit 5 Sternen klassifiziert.
           </p>
         <div class='whitespace'>
         </div>
         <div class='paragraph'>
           <p class='main-text'>
-            Die Ferienwohnung verfügt über großzügige, helle Räume mit insgesamt 85m<sup>2</sup> Wohnfläche und einer 12m<sup>2</sup> großen überdachten Terrasse.
+            Die Ferienwohnung verfügt über großzügige, helle Räume mit insgesamt 85m<sup>2</sup> Wohnfläche und einer großen überdachten Terrasse.
 Die Zimmer sind komfortabel und modern eingerichtet. 
           </p>
         <div class='two-images'>
@@ -40,7 +40,7 @@ Die Zimmer sind komfortabel und modern eingerichtet.
       <div class='paragraph'>
         <p class='main-text'>
           Im Essbereich erwartet Sie eine komplett eingerichtete Einbauküche.<br>
- Gleich daneben finden sie einen Wohnbereich mit SAT-TV, der zum Entspannen einlädt. 
+ Gleich daneben finden sie einen Wohnbereich mit SAT-TV und Internetradio, der zum Entspannen einlädt. 
         </p>
         <div class='two-images'>
           <img src='images/kitchen.jpg' class='image-gallery' alt='Küche'>
@@ -61,7 +61,7 @@ Die Zimmer sind komfortabel und modern eingerichtet.
       <div class='paragraph'>
       <p class='main-text'>
         Das Badezimmer mit Dusche und Badewanne lädt nach einem erlebnisreichen Tag zum Entspannen ein.<br>
-        Im Erdgeschoß finden Sie eine seperate Waschküche und einen großen Flur, in dem Sie beispielsweise Ihre Fahrräder sicher unterbringen können.
+        Im Erdgeschoß finden Sie eine separate Waschküche und einen großen Flur, in dem Sie beispielsweise Ihre Fahrräder sicher unterbringen können.
       </p>
       <div class='two-images'>
           <img src='images/bath_1.jpg' class='image-gallery' alt='Badezimmer'>
@@ -70,7 +70,7 @@ Die Zimmer sind komfortabel und modern eingerichtet.
     </div>
   
       <p class='main-text'>
-        Hier finden sie noch einen detailierten Grundriss der Ferienwohnung: <a href='images/grundriss_redraw.png' class='image-gallery'>Grundriss</a> <br>
+        Hier finden sie noch einen detaillierten Grundriss der Ferienwohnung: <a href='images/grundriss_redraw.png' class='image-gallery'>Grundriss</a> <br>
    	Die Waschküche und Unterstellmöglichkeiten befinden sich im Erdgeschoss und sind demnach hier nicht abgebildet.
    	</p>
     </div>

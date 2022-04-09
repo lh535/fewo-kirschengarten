@@ -16,7 +16,7 @@
             <li>Terrasse</li>
             <li>Fußbodenheizung</li>
             <li>Überdachte Unterstellmöglichkeit für ein Auto</li>
-            <li>Nichtracher-Wohnung (außer Terrasse)</li>
+            <li>Nichtraucher-Wohnung</li>
           </ul>
         <h2>Küche</h2>
           <ul>
@@ -42,6 +42,7 @@
             <li>WLAN</li>
             <li>Zimmersafe</li>
             <li>SAT-Fernseher</li>
+            <li>Internetradio</li>
             <li>Bei Bedarf Kinderstühle</li>
           </ul>
       </div>
