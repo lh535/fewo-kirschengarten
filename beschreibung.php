@@ -40,7 +40,7 @@ Die Zimmer sind komfortabel und modern eingerichtet.
       <div class='paragraph'>
         <p class='main-text'>
           Im Essbereich erwartet Sie eine komplett eingerichtete Einbauküche.<br>
- Gleich daneben finden sie einen Wohnbereich mit SAT-TV und Internetradio, der zum Entspannen einlädt. 
+          Der angrenzende, gemütliche Wohnbereich verfügt über SAT-TV und Internetradio.
         </p>
         <div class='two-images'>
           <img src='images/kitchen.jpg' class='image-gallery' alt='Küche'>
@@ -50,7 +50,7 @@ Die Zimmer sind komfortabel und modern eingerichtet.
 
       <div class='paragraph'>
       <p class='main-text'>
-        Die zwei bequemen Schlafzimmer mit Aussicht ins nahe Elsass (Vogesen) besitzen ausreichend Verstauungsmöglichkeiten.
+        Die beiden Schlafzimmer mit ausreichenden Verstauungsmöglichkeiten bieten einen schönen Ausblick ins nahe Elsass, Vogesen.
       </p>
       <div class='two-images'>
           <img src='images/bed.jpg' class='image-gallery' alt='Schlafzimmer mit Doppelbett'>
@@ -71,7 +71,7 @@ Die Zimmer sind komfortabel und modern eingerichtet.
   
       <p class='main-text'>
         Hier finden sie noch einen detaillierten Grundriss der Ferienwohnung: <a href='images/grundriss_redraw.png' class='image-gallery'>Grundriss</a> <br>
-   	Die Waschküche und Unterstellmöglichkeiten befinden sich im Erdgeschoss und sind demnach hier nicht abgebildet.
+   	Die Waschküche und der Eingangsbereich befinden sich im Erdgeschoss und sind demnach hier nicht abgebildet.
    	</p>
     </div>
   <?php include 'footer.php'; ?>

@@ -21,17 +21,18 @@
           Ebenfalls direkt in der Nähe finden Sie den <a href="https://abenteuer-im-wald.de/index.php/de/">Kenzinger Klettergarten</a>.
           </p>
           <p>
-          Besonders gut geeignet ist der Kaiserstuhl für <a href=https://www.endingen.de/de/tourismus-und-freizeit/urlaubserlebnisse/wandern/wander-touren">Wanderungen</a>, <a href="https://www.endingen.de/de/tourismus-und-freizeit/urlaubserlebnisse/radfahren">Radtouren</a> und auch Stadttouren im Elsass und Schwarzwald. Besuchen Sie auch die Seite des <a href="https://www.naturgarten-kaiserstuhl.de/de-de">Naturgarten Kaiserstuhls</a>, um weitere Eindrücke für mögliche Ausflugsziele zu gewinnen.
+          Besonders gut geeignet ist der Kaiserstuhl für <a href=https://www.endingen.de/de/tourismus-und-freizeit/urlaubserlebnisse/wandern>Wanderungen</a>, <a href="https://www.endingen.de/de/tourismus-und-freizeit/urlaubserlebnisse/radfahren">Radtouren</a> und auch Stadttouren im Elsass und Schwarzwald. Besuchen Sie auch die Seite des <a href="https://www.naturgarten-kaiserstuhl.de/de-de">Naturgarten Kaiserstuhl</a>, um weitere Eindrücke für mögliche Ausflugsziele zu gewinnen.
           </p>
           <p>
           In der Stadt Endingen können Sie ebenfalls einiges erleben - einen Eindruck einiger Veranstaltungen finden Sie hier: <a href="https://www.endingen.de/de/tourismus-und-freizeit/urlaubserlebnisse/stadterlebnisse">Stadt Endingen</a>
           </p>
         </div>
         <div class='one-third'>
-          <img src="images/sign.jpg" class="image-gallery" alt="Wanderung am Kaiserstuhl">
-          <img src="images/vogtsburg.jpg" class="image-gallery" alt="Vogtsburg">
-          <img src="images/kaiserstuhl.jpg" class="image-gallery" alt="Kaiserstuhl">
+          <img src="images/kaiserstuhl_air.jpg" class="image-gallery" alt="Luftbild von Königschaffhausen">
           <img src="images/butterfly.jpg" class="image-gallery" alt="Blume mit Biene und Schmetterling">
+          <img src="images/hill.jpg" class="image-gallery" alt="Blumen am Kaiserstuhl">
+          <img src="images/kaiserstuhl.jpg" class="image-gallery" alt="Kaiserstuhl">
+
         </div>
       </div>
     </div>

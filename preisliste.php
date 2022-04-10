@@ -49,7 +49,7 @@
           
           <tr>
             <td></td>
-            <td colspan='3'>(Preise gelten pro Übernachtung, inkl. 7% MWSt)</td>
+            <td colspan='3'>(Preise gelten pro Übernachtung)</td>
           </tr>
         </table>
         <p>Endreinigung, Bettwäsche, Hand- und Geschirrtücher und alle Nebenkosten (Strom, Wasser, Heizung) sind inklusive.</p><br><br><br>
@@ -67,7 +67,7 @@
           </tr>
         </table>
         <br>
-        <p>In diesem Preis inklusive ist auch Konus-Gästekarte, die sie zur kostenlosen Benutzung von öffentlichen Verkehrsmitteln berechtigt. Mehr Infos hierzu auch unter diesem Link: <a href="https://www.schwarzwald-tourismus.info/planen-buchen/konus-gaestekarte">Konus-Gästekarte</a>
+        <p>In diesem Preis inklusive ist auch die Konus-Gästekarte, mit der sie zur kostenlosen Nutzung aller öffentlichen Verkehrsmitteln berechtigt sind. Mehr Infos hierzu auch unter diesem Link: <a href="https://www.schwarzwald-tourismus.info/planen-buchen/konus-gaestekarte">Konus-Gästekarte</a>
       </div>
     <?php include 'footer.php'; ?>
     </div>

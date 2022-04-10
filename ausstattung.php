@@ -33,7 +33,7 @@
           </ul> 
         <h2>Bad/Waschküche</h2>
           <ul>
-            <li>Dusche und Badewanne</li>
+            <li>WC, Urinal, Dusche und Badewanne </li>
             <li>Waschmaschine, Trockner und Bügeleisen</li>
             <li>Ausreichend Handtücher, Geschirrtücher, Bettbezüge etc.</li>
           </ul>
