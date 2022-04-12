@@ -10,7 +10,9 @@
 
 <meta name="viewport" content="width=device-width, inital-scale=1.0 user-scalable=yes">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta name="description" content="Fünf-Sterne Ferienwohnung am Kaiserstuhl"
+<meta name="description" content="Fünf-Sterne Ferienwohnung am Kaiserstuhl">
+<meta property="og:title" content="Ferienwohnung Kirschengarten">
+<meta property="og:description" content="Fünf-Sterne Ferienwohnung am Kaiserstuhl">
 <meta name="author" content="Lisa Hofert">
 <!--[if It IE 9]>
   <script>
