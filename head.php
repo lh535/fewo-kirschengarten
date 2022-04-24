@@ -14,6 +14,9 @@
 <meta property="og:title" content="Ferienwohnung Kirschengarten">
 <meta property="og:description" content="Fünf-Sterne Ferienwohnung am Kaiserstuhl">
 <meta name="author" content="Lisa Hofert">
+<?php
+header("X-Clacks-Overhead: GNU Terry Pratchett");
+?>
 <!--[if It IE 9]>
   <script>
   alert("Sie nutzen einen veralteten Browser. Die Seite funktioniert möglicherweise nicht vollständig. Bitte upgraden Sie ihren Browser, oder melden Sie sich bei Problemen hier: hofertlisa@gmail.com");
