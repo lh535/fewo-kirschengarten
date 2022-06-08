@@ -14,7 +14,8 @@
           <iframe src='https://tportal.toubiz.de/kaiserstuhl-gastgeber/ukv/calendar/FIT00020070312698240'></iframe>
         </div>
         <div style="text-align: center;">
-        <p> Anreise: ab 15:00 Uhr &nbsp; &nbsp; Abreise: bis 10:00 Uhr</p>
+        <p> Anreise: ab 15:00 Uhr &nbsp; &nbsp; Abreise: bis 10:00 Uhr <br>
+            An- und Abreise nur am Samstag, Sonntag oder Feiertag möglich</p>
         </div>
       </div>
       <?php include 'footer.php'; ?>
