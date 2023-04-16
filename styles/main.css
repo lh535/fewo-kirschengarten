@@ -394,6 +394,7 @@ img {
   font-size: 30px;
   font-weight: bold;
   z-index: 5;
+  text-shadow: #0f0f0f 1px 0 10px;
 }
 .next-button {
   right: 30px;
