@@ -21,23 +21,23 @@
 
           <tr>
             <th>3-4 Übernachtungen</th>
-            <td>71,-€</td>
-            <td>76,-€</td>
-            <td>81,-€</td>
+            <td>73,-€</td>
+            <td>78,-€</td>
+            <td>83,-€</td>
           </tr>
 
           <tr>
             <th>5-8 Übernachtungen</th>
-            <td>66,-€</td>
-            <td>71,-€</td>
-            <td>76,-€</td>
+            <td>68,-€</td>
+            <td>73,-€</td>
+            <td>78,-€</td>
           </tr>
 
           <tr>
             <th>ab 9 Übernachtungen</th>
-            <td>62,-€</td>
-            <td>67,-€</td>
-            <td>72,-€</td>
+            <td>64,-€</td>
+            <td>69,-€</td>
+            <td>74,-€</td>
           </tr>
           
           <tr>
