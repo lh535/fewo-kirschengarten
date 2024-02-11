@@ -21,7 +21,7 @@ Rhein und ist geprägt vom Obst- und Weinbau.
 Im April findet auch jährlich in und um Königschaffhausen die <a href="https://koenigschaffhausen-am-kaiserstuhl.de/bluetenwanderung/">Blütenwanderung</a> statt. Hier können Sie die Umgebung und ausgewählte Angebote aus der lokalen Gastronomie geniessen.<br>
 </p>
 <p>
-Im Dorf selbst finden Sie eine Bäckerei, zwei Metzgereien, einen Bauernladen, ein Cafe und 3 Restaurants. Zudem gibt es eine beliebte <a href="https://eismanufaktur-baden.de/die-eismanufaktur/">Eismanufaktur</a>, in der Sie Eis aus heimischen Zutaten genießen können.<br>
+Im Dorf selbst finden Sie eine Bäckerei, eine Metzgerei, einen Bauernladen, ein Cafe und zwei Restaurants. Zudem gibt es eine beliebte <a href="https://eismanufaktur-baden.de/die-eismanufaktur/">Eismanufaktur</a>, in der Sie Eis aus heimischen Zutaten genießen können.<br>
 Wenn Sie Wein aus der Region probieren möchten, können Sie bei der örtlichen <a href="https://www.kk-weine.de/">Winzergenossenschaft</a> vorbeischauen.<br>
 Weitere Einkaufsmöglichkeiten gibt es in der Stadt Endingen.
 </p>

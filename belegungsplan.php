@@ -11,8 +11,6 @@
       <h1>Belegungsplan</h1>
       <div class='content-wrapper' id='description-content'>
         <div class='paragraph'>
-          <p> Den Belegungsplan finden Sie vorübergehend auf der folgenden Seite: <a href=https://tportal.toubiz.de/kaiserstuhl/ukv/house/FIT00020070312698240>
-	   https://tportal.toubiz.de/kaiserstuhl/ukv/house/FIT00020070312698240</a> </p>
           <iframe src='https://tportal.toubiz.de/kaiserstuhl-gastgeber/ukv/calendar/FIT00020070312698240'></iframe>
         </div>
         <div style="text-align: center;">
