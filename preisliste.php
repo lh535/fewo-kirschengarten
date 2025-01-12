@@ -35,7 +35,7 @@
 
           <tr>
             <th>ab 9 Übernachtungen</th>
-            <td>66,-€</td>
+            <td>65,-€</td>
             <td>70,-€</td>
             <td>75,-€</td>
           </tr>
