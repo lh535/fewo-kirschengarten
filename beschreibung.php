@@ -22,7 +22,7 @@
           <p class='main-text'>
             Unsere Ferienwohnung liegt inmitten der Natur am Ortsrand von Königschaffhausen, mit einem herrlichen Blick über den Kaiserstuhl.
 Umgeben von Obstbäumen und in absolut ruhiger Lage bieten wir Ihnen Erholung und Entspannung pur.<br>
-Die Wohnung wurde vom Deutschen Tourismusverband mit 5 Sternen klassifiziert.
+Die Wohnung wurde vom Deutschen Tourismusverband mit vier Sternen klassifiziert.
           </p>
         <div class='whitespace'>
         </div>
