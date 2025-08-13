@@ -10,7 +10,7 @@
     <script>setTopOffset()</script>
       <h1>Preisliste</h1>
       <div class='content-wrapper centered-text' id='description-content'>
-        <h2>Preise<p class="small-text">(gültig bis 31.12.2025)</p></h2>
+        <h2>Preise<p class="small-text">(gültig bis 31.12.2026)</p></h2>
         <table id="price-table">
           <tr>
             <td></td>
@@ -21,23 +21,23 @@
 
           <tr>
             <th>3-4 Übernachtungen</th>
-            <td>74,-€</td>
-            <td>79,-€</td>
-            <td>84,-€</td>
+            <td>75,-€</td>
+            <td>80,-€</td>
+            <td>85,-€</td>
           </tr>
 
           <tr>
             <th>5-8 Übernachtungen</th>
-            <td>69,-€</td>
-            <td>74,-€</td>
-            <td>79,-€</td>
+            <td>70,-€</td>
+            <td>75,-€</td>
+            <td>80,-€</td>
           </tr>
 
           <tr>
             <th>ab 9 Übernachtungen</th>
-            <td>65,-€</td>
-            <td>70,-€</td>
-            <td>75,-€</td>
+            <td>66,-€</td>
+            <td>71,-€</td>
+            <td>76,-€</td>
           </tr>
           
           <tr>
